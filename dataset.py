@@ -58,7 +58,7 @@ class UCFDataset(data.Dataset):
         else:
             v_feat = process_feat(v_feat, self.max_seqlen, is_random=False)
             return v_feat, t_feat #, label, ano_idx
-        #PUTA BREAKPOINT HERE
+        #PUTA 
 
     def __len__(self):
         return len(self.list)
