@@ -23,8 +23,10 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 def load_checkpoint(model, ckpt_path, logger):
     if os.path.isfile(ckpt_path):
+        start_time = time.time()  # Start timer
         logger.info('loading pretrained checkpoint from {}.'.format(ckpt_path))
-        weight_dict = torch.load(ckpt_path)
+        # weight_dict = torch.load(ckpt_path)
+        weight_dict = torch.load(ckpt_path, map_location=torch.device('cpu'))  # Force CPU
         model_dict = model.state_dict()
         for name, param in weight_dict.items():
             if 'module' in name:
@@ -37,6 +39,9 @@ def load_checkpoint(model, ckpt_path, logger):
                         name, param.size(), model_dict[name].size()))
             else:
                 logger.info('{} not found in model dict.'.format(name))
+        end_time = time.time() # End timer
+        load_time = end_time - start_time
+        logger.info(f'Checkpoint loaded in {load_time:.2f} seconds')
     else:
         logger.info('Not found pretrained checkpoint file.')
 
@@ -82,6 +87,7 @@ def train(model, train_loader, test_loader, gt, logger):
 
 
 def main(cfg):
+    model_time_start = time.time()
     logger = get_logger(cfg.logs_dir)
     setup_seed(cfg.seed)
     logger.info('Config:{}'.format(cfg.__dict__))
@@ -103,15 +109,17 @@ def main(cfg):
 
     test_loader = DataLoader(test_data, batch_size=cfg.test_bs, shuffle=False,
                              num_workers=cfg.workers, pin_memory=True)
-
+ 
     model = XModel(cfg)
     gt = np.load(cfg.gt)
-    device = torch.device("cuda")
+    device = torch.device("cpu")
     model = model.to(device)
 
     param = sum(p.numel() for p in model.parameters())
     logger.info('total params:{:.4f}M'.format(param / (1000 ** 2)))
-
+    model_time_end = time.time()
+    model_time = model_time_end - model_time_start
+    logger.info(f'Model loaded in {model_time:.4f} seconds')
     if args.mode == 'train':
         logger.info('Training Mode')
         train(model, train_loader, test_loader, gt, logger)

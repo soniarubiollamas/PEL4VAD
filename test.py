@@ -1,6 +1,11 @@
 from sklearn.metrics import auc, roc_curve, confusion_matrix, precision_recall_curve
 import numpy as np
 import torch
+import pandas as pd 
+import pickle
+import json 
+import os
+from log import get_logger
 
 
 def cal_false_alarm(gt, preds, threshold=0.5):
@@ -20,15 +25,15 @@ def cal_false_alarm(gt, preds, threshold=0.5):
 def test_func(dataloader, model, gt, dataset):
     with torch.no_grad():
         model.eval()
-        pred = torch.zeros(0).cuda()
-        abnormal_preds = torch.zeros(0).cuda()
-        abnormal_labels = torch.zeros(0).cuda()
-        normal_preds = torch.zeros(0).cuda()
-        normal_labels = torch.zeros(0).cuda()
-        gt_tmp = torch.tensor(gt.copy()).cuda()
+        pred = torch.zeros(0)
+        abnormal_preds = torch.zeros(0)
+        abnormal_labels = torch.zeros(0)
+        normal_preds = torch.zeros(0)
+        normal_labels = torch.zeros(0)
+        gt_tmp = torch.tensor(gt.copy())
 
         for i, (v_input, label) in enumerate(dataloader):
-            v_input = v_input.float().cuda(non_blocking=True)
+            v_input = v_input.float()
             seq_len = torch.sum(torch.max(torch.abs(v_input), dim=2)[0] > 0, 1)
 
             logits, _ = model(v_input, seq_len)
@@ -45,7 +50,7 @@ def test_func(dataloader, model, gt, dataset):
 
         pred = list(pred.cpu().detach().numpy())
         n_far = cal_false_alarm(normal_labels, normal_preds)
-        fpr, tpr, _ = roc_curve(list(gt), np.repeat(pred, 16))
+        fpr, tpr, thresholds = roc_curve(list(gt), np.repeat(pred, 16))
         roc_auc = auc(fpr, tpr)
         pre, rec, _ = precision_recall_curve(list(gt), np.repeat(pred, 16))
         pr_auc = auc(rec, pre)

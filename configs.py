@@ -5,9 +5,9 @@ def build_config(dataset):
         cfg.dataset = 'ucf-crime'
         cfg.model_name = 'ucf_'
         cfg.metrics = 'AUC'
-        cfg.feat_prefix = '/data/pyj/feat/ucf-i3d'
+        cfg.feat_prefix = './test/'
         cfg.train_list = './list/ucf/train.list'
-        cfg.test_list = './list/ucf/test.list'
+        cfg.test_list = './list/ucf/test_xoni.list'
         cfg.token_feat = './list/ucf/ucf-prompt.npy'
         cfg.gt = './list/ucf/ucf-gt.npy'
         # TCA settings
@@ -59,7 +59,7 @@ def build_config(dataset):
         cfg.metrics = 'AUC'
         cfg.feat_prefix = '/data/pyj/feat/SHTech-i3d'
         cfg.train_list = './list/sh/train.list'
-        cfg.test_list = './list/sh/test.list'
+        cfg.test_list = './list/sh/test_xoni.list'
         cfg.token_feat = './list/sh/sh-prompt.npy'
         cfg.abn_label = './list/sh/relabel.list'
         cfg.gt = './list/sh/sh-gt.npy'
@@ -90,7 +90,7 @@ def build_config(dataset):
     cfg.train_bs = 128
     cfg.max_seqlen = 200
     cfg.max_epoch = 50
-    cfg.workers = 8
+    cfg.workers = 2
     cfg.save_dir = './ckpt/'
     cfg.logs_dir = './log_info.log'
 

@@ -88,10 +88,10 @@ def KLVDloss(preds, label, criterion):
 
 def get_cas(x_v, x_t, logits, labels, scale=10):
     x_v = x_v.permute(0, 2, 1)
-    video_feat = torch.zeros(0).cuda()  # tensor([])
-    token_feat = torch.zeros(0).cuda()  # tensor([])
-    video_labels = torch.zeros(0).cuda()  # tensor([])
-    bg_label = torch.tensor([0]).cuda()
+    video_feat = torch.zeros(0)  # tensor([])
+    token_feat = torch.zeros(0)  # tensor([])
+    video_labels = torch.zeros(0)# tensor([])
+    bg_label = torch.tensor([0])
 
     abn_logits = (scale * logits).exp() - 1
     abn_logits = F.normalize(abn_logits, p=1, dim=1)
@@ -145,7 +145,7 @@ def pairwise_minus_l2_distance(x, y):
 
 
 def fixed_smooth(logits, t_size):
-    ins_preds = torch.zeros(0).cuda()
+    ins_preds = torch.zeros(0)
     assert t_size > 1
     if len(logits) % t_size != 0:
         delta = t_size - len(logits) % t_size
@@ -163,7 +163,7 @@ def fixed_smooth(logits, t_size):
 
 def slide_smooth(logits, t_size, mode='zero'):
     assert t_size > 1
-    ins_preds = torch.zeros(0).cuda()
+    ins_preds = torch.zeros(0)
     padding = t_size - 1
     if mode == 'zero':
         logits = F.pad(logits, (0, padding), 'constant', 0)
