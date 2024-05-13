@@ -51,7 +51,7 @@ class UCFDataset(data.Dataset):
         if self.tranform is not None:
             v_feat = self.tranform(v_feat)
             t_feat = self.tranform(t_feat)
-        #hola
+
         if self.test_mode:
             # filename = self.list[index].strip('\n')  # Add this line
             return v_feat #, label  # ano_idx , video_name 
