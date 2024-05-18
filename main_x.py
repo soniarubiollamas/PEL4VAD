@@ -15,7 +15,7 @@ from dataset import *
 
 from train import train_func
 from test import test_func
-from infer_xoni import infer_func
+from infer import infer_func
 import argparse
 import copy
 
@@ -133,7 +133,7 @@ def main(cfg):
                 dataset_len = len(dataset_files)/1
 
             # replace the batch to 10 when using ucf dataset
-            batch_size = 1
+            batch_size = 10 # set to 10 when using UCF dataset
 
             # Create the .list file (e.g., 'batch_list.txt')
             list_file_path = 'batch_list.txt'
@@ -141,11 +141,11 @@ def main(cfg):
                 pass
                    
             # create excel file if it doesn't exist
-            if not os.path.exists('annotations/experiment_crop.xlsx'):
+            if not os.path.exists('annotations/time_prediction.xlsx'):
                 df = pd.DataFrame(columns=['File name', 'checkpoint time', 'loading time', 'prediction time', 'complete time'])
-                df.to_excel('annotations/experiment_crop.xlsx', index=False)
+                df.to_excel('annotations/time_prediction.xlsx', index=False)
             else:
-                df = pd.read_excel('annotations/experiment_crop.xlsx')
+                df = pd.read_excel('annotations/time_prediction.xlsx')
            
             
             # Results collection
@@ -178,9 +178,10 @@ def main(cfg):
                     total_loading_time = 0.0
                     total_pred_time = 0.0
                     num_files = 0  # Counter for the number of files
+                    repeat = 3
 
                     # Experimental loop (assuming you need it)
-                    for experiment_num in range(3):
+                    for experiment_num in range(repeat):
                         # Reset random seed
                         setup_seed(cfg.seed)
 
@@ -211,7 +212,7 @@ def main(cfg):
                         total_loading_time += data_loading_time
                         total_pred_time += time_pred
 
-                        logger.info(f"Processed {num_files+1}/5")
+                        logger.info(f"Processed {num_files+1}/{repeat}")
                         num_files += 1
 
                     
@@ -236,7 +237,7 @@ def main(cfg):
                         'complete time': average_complete_time
                     })
                 
-                    logger.info(f"Processed {files_processed+1} out of {dataset_len} files")
+                    logger.info(f"Processed {files_processed+1} out of {dataset_len/batch_size} files")
                     files_processed += 1
 
                     # Remove the .list file
@@ -247,7 +248,7 @@ def main(cfg):
                     df_combined = pd.concat([df, df_new], ignore_index=True)
 
                     # Write the combined data back to the file
-                    df_combined.to_excel('annotations/experiment_crop.xlsx', index=False)
+                    df_combined.to_excel('annotations/time_prediction.xlsx', index=False)
 
             
 

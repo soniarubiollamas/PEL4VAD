@@ -5000,3 +5000,253 @@ Parameter Group 0
 [2024-05-13 12:42:49,990][main.py][line:128][INFO] Test Mode
 [2024-05-13 12:42:49,991][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
 [2024-05-13 12:42:49,996][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 13:18:24,163][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 2, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:18:24,378][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:18:24,379][main.py][line:122][INFO] Model loaded in 0.2432 seconds
+[2024-05-13 13:18:24,381][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:18:24,383][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:18:24,650][main.py][line:44][INFO] Checkpoint loaded in 0.27 seconds
+[2024-05-13 13:19:21,912][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 2, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:19:21,946][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:19:21,947][main.py][line:122][INFO] Model loaded in 0.0358 seconds
+[2024-05-13 13:19:21,947][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:19:21,948][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:19:21,956][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 13:21:31,639][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 2, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:21:31,674][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:21:31,674][main.py][line:122][INFO] Model loaded in 0.0376 seconds
+[2024-05-13 13:21:31,675][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:21:31,675][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:21:31,682][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 13:23:01,533][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 2, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:23:01,569][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:23:01,569][main.py][line:122][INFO] Model loaded in 0.0369 seconds
+[2024-05-13 13:23:01,570][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:23:01,571][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:23:01,581][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 13:26:14,266][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:26:14,310][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:26:14,311][main.py][line:122][INFO] Model loaded in 0.0467 seconds
+[2024-05-13 13:26:14,311][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:26:14,312][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:26:14,323][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 13:28:10,994][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:28:11,043][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:28:11,043][main.py][line:122][INFO] Model loaded in 0.0499 seconds
+[2024-05-13 13:28:11,043][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:28:11,044][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:28:11,054][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 13:29:26,350][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:29:26,396][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:29:26,396][main.py][line:122][INFO] Model loaded in 0.0469 seconds
+[2024-05-13 13:29:26,398][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:29:26,399][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:29:26,406][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 13:29:35,915][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 13:29:35,980][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 13:29:35,981][main.py][line:122][INFO] Model loaded in 0.0672 seconds
+[2024-05-13 13:29:35,981][main.py][line:128][INFO] Test Mode
+[2024-05-13 13:29:35,982][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 13:29:35,994][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 18:19:23,471][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:19:24,832][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:19:24,833][main.py][line:122][INFO] Model loaded in 1.4721 seconds
+[2024-05-13 18:19:24,833][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:19:24,834][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:19:25,301][main.py][line:44][INFO] Checkpoint loaded in 0.47 seconds
+[2024-05-13 18:24:41,868][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:24:41,908][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:24:41,908][main.py][line:122][INFO] Model loaded in 0.0499 seconds
+[2024-05-13 18:24:41,908][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:24:41,908][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:24:41,918][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 18:25:05,622][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:25:05,718][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:25:05,718][main.py][line:122][INFO] Model loaded in 0.0992 seconds
+[2024-05-13 18:25:05,728][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:25:05,728][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:25:05,741][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 18:26:35,401][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:26:35,440][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:26:35,441][main.py][line:122][INFO] Model loaded in 0.0395 seconds
+[2024-05-13 18:26:35,442][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:26:35,442][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:26:35,448][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 18:28:00,372][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:28:00,482][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:28:00,482][main.py][line:122][INFO] Model loaded in 0.1201 seconds
+[2024-05-13 18:28:00,482][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:28:00,487][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:28:00,499][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 18:28:55,282][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:28:55,323][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:28:55,323][main.py][line:122][INFO] Model loaded in 0.0407 seconds
+[2024-05-13 18:28:55,323][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:28:55,323][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:28:55,338][main.py][line:44][INFO] Checkpoint loaded in 0.02 seconds
+[2024-05-13 18:30:01,665][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:30:01,698][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:30:01,698][main.py][line:122][INFO] Model loaded in 0.0327 seconds
+[2024-05-13 18:30:01,698][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:30:01,698][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:30:01,716][main.py][line:44][INFO] Checkpoint loaded in 0.02 seconds
+[2024-05-13 18:35:28,622][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:35:28,657][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:35:28,657][main.py][line:122][INFO] Model loaded in 0.0352 seconds
+[2024-05-13 18:35:28,657][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:35:28,657][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:35:28,673][main.py][line:44][INFO] Checkpoint loaded in 0.02 seconds
+[2024-05-13 18:47:16,579][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 18:47:16,625][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 18:47:16,625][main.py][line:122][INFO] Model loaded in 0.0462 seconds
+[2024-05-13 18:47:16,626][main.py][line:128][INFO] Test Mode
+[2024-05-13 18:47:16,627][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 18:47:16,629][main.py][line:44][INFO] Checkpoint loaded in 0.00 seconds
+[2024-05-13 19:08:57,446][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 19:08:57,486][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 19:08:57,491][main.py][line:122][INFO] Model loaded in 0.0452 seconds
+[2024-05-13 19:08:57,491][main.py][line:128][INFO] Test Mode
+[2024-05-13 19:08:57,491][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 19:08:57,497][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 19:09:55,736][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 19:09:55,781][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 19:09:55,781][main.py][line:122][INFO] Model loaded in 0.0451 seconds
+[2024-05-13 19:09:55,781][main.py][line:128][INFO] Test Mode
+[2024-05-13 19:09:55,781][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 19:09:55,794][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 20:00:23,013][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:00:24,484][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:00:24,484][main.py][line:122][INFO] Model loaded in 1.5798 seconds
+[2024-05-13 20:00:24,484][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:00:24,484][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:00:25,024][main.py][line:44][INFO] Checkpoint loaded in 0.54 seconds
+[2024-05-13 20:06:10,583][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:06:10,623][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:06:10,628][main.py][line:122][INFO] Model loaded in 0.0450 seconds
+[2024-05-13 20:06:10,628][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:06:10,628][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:06:10,637][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 20:06:25,273][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:06:25,316][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:06:25,316][main.py][line:122][INFO] Model loaded in 0.0430 seconds
+[2024-05-13 20:06:25,323][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:06:25,323][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:06:25,328][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 20:09:22,093][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:09:22,146][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:09:22,146][main.py][line:122][INFO] Model loaded in 0.0529 seconds
+[2024-05-13 20:09:22,146][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:09:22,146][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:09:22,153][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 20:10:41,915][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:10:41,954][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:10:41,967][main.py][line:122][INFO] Model loaded in 0.0515 seconds
+[2024-05-13 20:10:41,968][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:10:41,968][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:10:41,968][main.py][line:44][INFO] Checkpoint loaded in 0.00 seconds
+[2024-05-13 20:13:12,078][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:13:12,123][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:13:12,123][main.py][line:122][INFO] Model loaded in 0.0447 seconds
+[2024-05-13 20:13:12,123][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:13:12,123][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:13:12,133][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-13 20:17:22,828][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:17:22,869][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:17:22,869][main.py][line:122][INFO] Model loaded in 0.0503 seconds
+[2024-05-13 20:17:22,869][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:17:22,869][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:17:22,888][main.py][line:44][INFO] Checkpoint loaded in 0.02 seconds
+[2024-05-13 20:17:39,548][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test_xoni.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-13 20:17:39,593][main.py][line:119][INFO] total params:1.2091M
+[2024-05-13 20:17:39,593][main.py][line:122][INFO] Model loaded in 0.0449 seconds
+[2024-05-13 20:17:39,593][main.py][line:128][INFO] Test Mode
+[2024-05-13 20:17:39,595][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-13 20:17:39,603][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-18 12:39:46,612][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:39:47,943][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:39:47,946][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:40:40,215][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:40:40,291][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:40:40,291][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:43:27,384][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:43:27,487][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:43:27,487][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:46:01,357][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:46:01,414][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:46:01,415][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:47:16,581][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:47:16,624][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:47:16,624][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:48:58,047][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:48:58,138][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:48:58,141][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:48:59,062][main_x.py][line:214][INFO] Processed 1/5
+[2024-05-18 12:48:59,189][main_x.py][line:214][INFO] Processed 2/5
+[2024-05-18 12:48:59,311][main_x.py][line:214][INFO] Processed 3/5
+[2024-05-18 12:48:59,312][main_x.py][line:239][INFO] Processed 1 out of 20.0 files
+[2024-05-18 12:49:00,186][main_x.py][line:214][INFO] Processed 1/5
+[2024-05-18 12:49:00,346][main_x.py][line:214][INFO] Processed 2/5
+[2024-05-18 12:49:00,472][main_x.py][line:214][INFO] Processed 3/5
+[2024-05-18 12:49:00,472][main_x.py][line:239][INFO] Processed 2 out of 20.0 files
+[2024-05-18 12:49:59,161][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:49:59,247][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:49:59,253][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:50:00,404][main_x.py][line:214][INFO] Processed 1/5
+[2024-05-18 12:50:00,558][main_x.py][line:214][INFO] Processed 2/5
+[2024-05-18 12:50:00,699][main_x.py][line:214][INFO] Processed 3/5
+[2024-05-18 12:50:00,700][main_x.py][line:239][INFO] Processed 1 out of 20.0 files
+[2024-05-18 12:50:00,885][main_x.py][line:214][INFO] Processed 1/5
+[2024-05-18 12:50:01,056][main_x.py][line:214][INFO] Processed 2/5
+[2024-05-18 12:50:01,189][main_x.py][line:214][INFO] Processed 3/5
+[2024-05-18 12:50:01,189][main_x.py][line:239][INFO] Processed 2 out of 20.0 files
+[2024-05-18 12:50:32,415][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:50:32,506][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:50:32,506][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:50:33,238][main_x.py][line:214][INFO] Processed 1/5
+[2024-05-18 12:50:33,362][main_x.py][line:214][INFO] Processed 2/5
+[2024-05-18 12:50:33,488][main_x.py][line:214][INFO] Processed 3/5
+[2024-05-18 12:50:33,490][main_x.py][line:239][INFO] Processed 1 out of 20.0 files
+[2024-05-18 12:50:33,695][main_x.py][line:214][INFO] Processed 1/5
+[2024-05-18 12:50:33,848][main_x.py][line:214][INFO] Processed 2/5
+[2024-05-18 12:50:33,991][main_x.py][line:214][INFO] Processed 3/5
+[2024-05-18 12:50:33,992][main_x.py][line:239][INFO] Processed 2 out of 20.0 files
+[2024-05-18 12:53:17,190][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:53:17,270][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:53:17,271][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:53:17,956][main_x.py][line:167][INFO] Skipping Abuse028_x264.npy as it is already in the Excel file
+[2024-05-18 12:53:17,958][main_x.py][line:167][INFO] Skipping Abuse030_x264.npy as it is already in the Excel file
+[2024-05-18 12:53:42,130][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 12:53:42,217][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-18 12:53:42,217][main_x.py][line:128][INFO] Test Mode
+[2024-05-18 12:53:43,423][main_x.py][line:215][INFO] Processed 1/3
+[2024-05-18 12:53:43,542][main_x.py][line:215][INFO] Processed 2/3
+[2024-05-18 12:53:43,662][main_x.py][line:215][INFO] Processed 3/3
+[2024-05-18 12:53:43,662][main_x.py][line:240][INFO] Processed 1 out of 2.0 files
+[2024-05-18 12:53:43,903][main_x.py][line:215][INFO] Processed 1/3
+[2024-05-18 12:53:44,045][main_x.py][line:215][INFO] Processed 2/3
+[2024-05-18 12:53:44,168][main_x.py][line:215][INFO] Processed 3/3
+[2024-05-18 12:53:44,169][main_x.py][line:240][INFO] Processed 2 out of 2.0 files
+[2024-05-18 13:02:45,815][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 13:02:45,900][main.py][line:119][INFO] total params:1.2091M
+[2024-05-18 13:02:45,900][main.py][line:122][INFO] Model loaded in 0.0870 seconds
+[2024-05-18 13:02:45,902][main.py][line:128][INFO] Test Mode
+[2024-05-18 13:02:45,903][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-18 13:02:45,912][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-18 13:03:16,124][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 13:03:16,213][main.py][line:119][INFO] total params:1.2091M
+[2024-05-18 13:03:16,215][main.py][line:122][INFO] Model loaded in 0.0939 seconds
+[2024-05-18 13:03:16,216][main.py][line:128][INFO] Test Mode
+[2024-05-18 13:03:16,217][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-18 13:03:16,225][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds
+[2024-05-18 13:03:51,690][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 13:03:51,954][main.py][line:119][INFO] total params:1.2091M
+[2024-05-18 13:03:52,009][main.py][line:122][INFO] Model loaded in 0.3193 seconds
+[2024-05-18 13:03:52,025][main.py][line:128][INFO] Test Mode
+[2024-05-18 13:03:52,027][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-18 13:03:52,089][main.py][line:44][INFO] Checkpoint loaded in 0.06 seconds
+[2024-05-18 13:06:38,767][main.py][line:93][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-new.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-18 13:06:38,853][main.py][line:119][INFO] total params:1.2091M
+[2024-05-18 13:06:38,854][main.py][line:122][INFO] Model loaded in 0.0883 seconds
+[2024-05-18 13:06:38,854][main.py][line:128][INFO] Test Mode
+[2024-05-18 13:06:38,855][main.py][line:27][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-18 13:06:38,868][main.py][line:44][INFO] Checkpoint loaded in 0.01 seconds

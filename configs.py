@@ -7,7 +7,7 @@ def build_config(dataset):
         cfg.metrics = 'AUC'
         cfg.feat_prefix = './test/'
         cfg.train_list = './list/ucf/train.list'
-        cfg.test_list = './list/ucf/test_xoni.list'
+        cfg.test_list = './list/ucf/test-new.list'
         cfg.token_feat = './list/ucf/ucf-prompt.npy'
         cfg.gt = './list/ucf/ucf-gt.npy'
         # TCA settings
@@ -90,7 +90,7 @@ def build_config(dataset):
     cfg.train_bs = 128
     cfg.max_seqlen = 200
     cfg.max_epoch = 50
-    cfg.workers = 2
+    cfg.workers = 0
     cfg.save_dir = './ckpt/'
     cfg.logs_dir = './log_info.log'
 

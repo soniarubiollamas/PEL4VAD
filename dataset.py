@@ -5,14 +5,14 @@ import os
 
 
 class UCFDataset(data.Dataset):
-    def __init__(self, cfg, transform=None, test_mode=False):
-        test_mode= True
+    def __init__(self, cfg, transform=None, test_mode=False, files = None):
+        # test_mode= True
         self.feat_prefix = cfg.feat_prefix
         if test_mode:
-            # if files is not None:
-            #     self.list_file = files
-            # else:
-            self.list_file = cfg.test_list
+            if files is not None:
+                self.list_file = files
+            else:
+                self.list_file = cfg.test_list
         else:
             self.list_file = cfg.train_list
         self.max_seqlen = cfg.max_seqlen
@@ -41,24 +41,23 @@ class UCFDataset(data.Dataset):
         #     video_ano = video_idx[:-3]
         #     ano_idx = self.abnormal_dict[video_ano]
         #     label = 1.0
-
         v_feat = np.array(np.load(feat_path), dtype=np.float32) # Load the video features
         # fg_feat = np.array(self.t_features[ano_idx, :], dtype=np.float16) # Load the abnormal features
-        bg_feat = np.array(self.t_features[0, :], dtype=np.float16) # Load the normal features 
-        fg_feat = fg_feat.reshape(1, 512) # Reshape the abnormal features
-        bg_feat = bg_feat.reshape(1, 512) # Reshape the normal features
-        t_feat = np.concatenate((bg_feat, fg_feat), axis=0)     # Concatenate the normal and abnormal features
+        # bg_feat = np.array(self.t_features[0, :], dtype=np.float16) # Load the normal features 
+        # fg_feat = fg_feat.reshape(1, 512) # Reshape the abnormal features
+        # bg_feat = bg_feat.reshape(1, 512) # Reshape the normal features
+        # t_feat = np.concatenate((bg_feat, fg_feat), axis=0)     # Concatenate the normal and abnormal features
         if self.tranform is not None:
             v_feat = self.tranform(v_feat)
             t_feat = self.tranform(t_feat)
 
         if self.test_mode:
-            # filename = self.list[index].strip('\n')  # Add this line
-            return v_feat #, label  # ano_idx , video_name 
+            filename = self.list[index].strip('\n')  # Add this line
+            return v_feat #, filename #, label  # ano_idx , video_name 
         else:
             v_feat = process_feat(v_feat, self.max_seqlen, is_random=False)
             return v_feat, t_feat #, label, ano_idx
-        #BrANCH
+       
 
     def __len__(self):
         return len(self.list)

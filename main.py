@@ -94,7 +94,7 @@ def main(cfg):
 
     if cfg.dataset == 'ucf-crime':
         train_data = UCFDataset(cfg, test_mode=False)
-        test_data = UCFDataset(cfg, test_mode=True)
+        test_data = UCFDataset(cfg, test_mode=True, files = None)
     elif cfg.dataset == 'xd-violence':
         train_data = XDataset(cfg, test_mode=False)
         test_data = XDataset(cfg, test_mode=True)
