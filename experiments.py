@@ -10,12 +10,12 @@ def process_excel_row(row, json_data):
         row[5].value = duration
 
 # Load the Excel file
-excel_file = "annotations/experiment_results.xlsx"
+excel_file = "annotations/time_prediction.xlsx"
 workbook = openpyxl.load_workbook(excel_file)
 worksheet = workbook.active
 
 # Load the JSON data
-json_file = "annotations/UCFCrime_Val.json"
+json_file = "annotations/UCFCrime_Train.json"
 with open(json_file, 'r') as f:
     json_data = json.load(f)
 

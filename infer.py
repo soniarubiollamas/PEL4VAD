@@ -14,8 +14,7 @@ def infer_func(model, dataloader, gt, logger, cfg):
         gt_tmp = torch.tensor(gt.copy()) 
         start_data_loading = time.time()  # Start timer for data loading
         time_pred_start = time.time()
-        for i, (v_input) in enumerate(dataloader):
-            breakpoint()
+        for i, (v_input, filename) in enumerate(dataloader):
             v_input = v_input.float()
             if v_input.shape[0] == 1:
                 v_input = torch.squeeze(v_input, dim=0)
@@ -52,14 +51,14 @@ def infer_func(model, dataloader, gt, logger, cfg):
         # roc_auc = auc(fpr, tpr)
         # pre, rec, _ = precision_recall_curve(list(gt), np.repeat(pred, 16))
         # pr_auc = auc(rec, pre)
-    # filename_save = filename[0].split('/')[-1].split('.')[0]
+    filename_save = filename[0].split('/')[-1].split('.')[0]
     timestamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-    np.save('frame_label/Abuse28_OG_'+timestamp+'_pred.npy', pred)
+    np.save('frame_label/'+filename_save+timestamp+'_pred.npy', pred)
     time_elapsed = time.time() - st
     # logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
     #     roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))
     # logger.info(' Complete in {:.0f}m {:.4f}s\n'.format(
-    #     time_elapsed // 60, time_elapsed % 60))
+        # time_elapsed // 60, time_elapsed % 60))
     return time_pred
     
     

@@ -26,7 +26,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 def load_checkpoint(model, ckpt_path, logger):
     if os.path.isfile(ckpt_path):
         start_time = time.time()  # Start timer
-        # logger.info('loading pretrained checkpoint from {}.'.format(ckpt_path))
+        logger.info('loading pretrained checkpoint from {}.'.format(ckpt_path))
         # weight_dict = torch.load(ckpt_path)
         weight_dict = torch.load(ckpt_path, map_location=torch.device('cpu'))  # Force CPU
         model_dict = model.state_dict()
@@ -131,8 +131,9 @@ def main(cfg):
             with open(cfg.test_list, 'r') as f:
                 dataset_files = [line.strip() for line in f]
                 dataset_len = len(dataset_files)/1
-
             # replace the batch to 10 when using ucf dataset
+            # convert dataset_len to int
+
             batch_size = 10 # set to 10 when using UCF dataset
 
             # Create the .list file (e.g., 'batch_list.txt')
@@ -178,7 +179,7 @@ def main(cfg):
                     total_loading_time = 0.0
                     total_pred_time = 0.0
                     num_files = 0  # Counter for the number of files
-                    repeat = 3
+                    repeat = 1
 
                     # Experimental loop (assuming you need it)
                     for experiment_num in range(repeat):
