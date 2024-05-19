@@ -15,17 +15,18 @@ workbook = openpyxl.load_workbook(excel_file)
 worksheet = workbook.active
 
 # Load the JSON data
-json_file = "annotations/UCFCrime_Train.json"
-with open(json_file, 'r') as f:
-    json_data = json.load(f)
+json_files = ["annotations/UCFCrime_Val.json","annotations/UCFCrime_Test.json","annotations/UCFCrime_Train.json"]
+for json_file in json_files:
+    with open(json_file, 'r') as f:
+        json_data = json.load(f)
 
-# Add a header for the duration column (if it doesn't exist)
-if worksheet.cell(row=1, column=6).value != "Duration":
-    worksheet.cell(row=1, column=6).value = "Duration"
+    # Add a header for the duration column (if it doesn't exist)
+    if worksheet.cell(row=1, column=6).value != "Duration":
+        worksheet.cell(row=1, column=6).value = "Duration"
 
-# Iterate through Excel rows, starting from the second row (assuming headers)
-for row in worksheet.iter_rows(min_row=2):
-    process_excel_row(row, json_data)
+    # Iterate through Excel rows, starting from the second row (assuming headers)
+    for row in worksheet.iter_rows(min_row=2):
+        process_excel_row(row, json_data)
 
 # Save the modified Excel file
 workbook.save(excel_file)

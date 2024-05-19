@@ -134,7 +134,8 @@ def main(cfg):
             # replace the batch to 10 when using ucf dataset
             # convert dataset_len to int
 
-            batch_size = 10 # set to 10 when using UCF dataset
+            # batch_size = 10 # set to 10 when using UCF dataset and saving prediction times
+            batch_size = int(dataset_len) # when doing infer with gt
 
             # Create the .list file (e.g., 'batch_list.txt')
             list_file_path = 'batch_list.txt'
@@ -143,7 +144,7 @@ def main(cfg):
                    
             # create excel file if it doesn't exist
             if not os.path.exists('annotations/time_prediction.xlsx'):
-                df = pd.DataFrame(columns=['File name', 'checkpoint time', 'loading time', 'prediction time', 'complete time'])
+                df = pd.DataFrame(columns=['File name', 'checkpoint time', 'load dataset time', 'pred time','complete infer time'])
                 df.to_excel('annotations/time_prediction.xlsx', index=False)
             else:
                 df = pd.read_excel('annotations/time_prediction.xlsx')
@@ -176,8 +177,8 @@ def main(cfg):
                 else: 
                     total_checkpoint_time = 0.0
                     total_complete_time = 0.0
-                    total_loading_time = 0.0
-                    total_pred_time = 0.0
+                    total_load_time = 0.0
+                    total_model_time = 0.0
                     num_files = 0  # Counter for the number of files
                     repeat = 1
 
@@ -193,25 +194,22 @@ def main(cfg):
                         checkpoint_time = end_load_time - start_load_time
 
                         # Create dataset for the current batch 
-                        start_data_loading = time.time()
                         test_data = UCFDataset(cfg, test_mode=True, files=list_file_path) 
                         test_loader = DataLoader(test_data, batch_size=cfg.test_bs, shuffle=False,
                                 num_workers=cfg.workers, pin_memory=True)
-                        end_data_loading = time.time()
-                        data_loading_time = end_data_loading - start_data_loading
+                        
 
                         # Inference with timing
                         start_infer = time.time()
-                        time_pred = infer_func(model, test_loader, gt, logger, cfg)  # No 'index' needed here
-                        end_infer = time.time()
-                        complete_time = end_infer - start_infer
+                        time_load_dataset, time_model = infer_func(model, test_loader, gt, logger, cfg)  # No 'index' needed here
+                        complete_time = time.time() - start_infer
                         dataset_file = current_batch[0]
 
                         # Update counters
                         total_checkpoint_time += checkpoint_time
                         total_complete_time += complete_time
-                        total_loading_time += data_loading_time
-                        total_pred_time += time_pred
+                        total_load_time += time_load_dataset
+                        total_model_time += time_model
 
                         logger.info(f"Processed {num_files+1}/{repeat}")
                         num_files += 1
@@ -221,21 +219,21 @@ def main(cfg):
                     if num_files > 0:  # Protection against zero files 
                         average_checkpoint_time = total_checkpoint_time / num_files
                         average_complete_time = total_complete_time / num_files
-                        average_loading_time = total_loading_time / num_files
-                        average_pred_time = total_pred_time / num_files
+                        average_load_time = total_load_time / num_files
+                        average_model_time = total_model_time / num_files
                     else:
                         average_checkpoint_time = 0.0
                         average_complete_time = 0.0
-                        average_loading_time = 0.0
-                        average_pred_time = 0.0
+                        average_load_time = 0.0
+                        average_model_time = 0.0 
 
                     # Store results
                     results.append({
                         'File name': dataset_file,  # Assuming you only process one 'dataset_file' here
                         'checkpoint time': average_checkpoint_time,
-                        'loading time': average_loading_time,
-                        'prediction time': average_pred_time,
-                        'complete time': average_complete_time
+                        'load dataset time': average_load_time,
+                        'pred time': average_model_time,
+                        'complete infer time': average_complete_time
                     })
                 
                     logger.info(f"Processed {files_processed+1} out of {dataset_len/batch_size} files")
