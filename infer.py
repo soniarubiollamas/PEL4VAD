@@ -46,21 +46,21 @@ def infer_func(model, dataloader, gt, logger, cfg):
         end_data_loading = time.time()  # End timer for data loading
         data_loading_time = end_data_loading - start_data_loading
         # logger.info(f"Data loading and preprocessing time: {data_loading_time:.4f} seconds")
-        n_far = cal_false_alarm(normal_labels, normal_preds)
+        # n_far = cal_false_alarm(normal_labels, normal_preds)
         pred = list(pred.cpu().detach().numpy())  
-        far = cal_false_alarm(normal_labels, normal_preds)
-        fpr, tpr, thresholds = roc_curve(list(gt), np.repeat(pred, 16))
-        roc_auc = auc(fpr, tpr)
-        pre, rec, _ = precision_recall_curve(list(gt), np.repeat(pred, 16))
-        pr_auc = auc(rec, pre)
+        # far = cal_false_alarm(normal_labels, normal_preds)
+        # fpr, tpr, thresholds = roc_curve(list(gt), np.repeat(pred, 16))
+        # roc_auc = auc(fpr, tpr)
+        # pre, rec, _ = precision_recall_curve(list(gt), np.repeat(pred, 16))
+        # pr_auc = auc(rec, pre)
     filename_save = filename[0].split('/')[-1].split('.')[0]
     timestamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-    np.save('frame_label/'+filename_save+timestamp+'_pred.npy', pred)
+    np.save('frame_label/'+filename_save+'_pred.npy', pred)
     time_elapsed = time.time() - st
-    logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
-        roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))
-    logger.info(' Complete in {:.0f}m {:.4f}s\n'.format(
-        time_elapsed // 60, time_elapsed % 60))
+    # logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
+    #     roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))
+    # logger.info(' Complete in {:.0f}m {:.4f}s\n'.format(
+        # time_elapsed // 60, time_elapsed % 60))
     return time_load_dataset, model_time
     
     

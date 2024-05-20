@@ -134,8 +134,8 @@ def main(cfg):
             # replace the batch to 10 when using ucf dataset
             # convert dataset_len to int
 
-            # batch_size = 10 # set to 10 when using UCF dataset and saving prediction times
-            batch_size = int(dataset_len) # when doing infer with gt
+            batch_size = 10 # set to 10 when using UCF dataset and saving prediction times
+            # batch_size = int(dataset_len) # when doing infer with gt
 
             # Create the .list file (e.g., 'batch_list.txt')
             list_file_path = 'batch_list.txt'

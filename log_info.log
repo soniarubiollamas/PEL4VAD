@@ -7136,3 +7136,874 @@ Parameter Group 0
 
 [2024-05-19 18:46:39,415][main_x.py][line:214][INFO] Processed 1/1
 [2024-05-19 18:46:39,415][main_x.py][line:239][INFO] Processed 1 out of 1.0 files
+[2024-05-20 21:01:24,908][main_x.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': True, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-05-20 21:01:26,221][main_x.py][line:121][INFO] total params:1.2091M
+[2024-05-20 21:01:26,221][main_x.py][line:128][INFO] Test Mode
+[2024-05-20 21:01:29,434][main_x.py][line:169][INFO] Skipping Abuse028_x264.npy as it is already in the Excel file
+[2024-05-20 21:01:29,447][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:32,641][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:32,642][main_x.py][line:239][INFO] Processed 1 out of 290.0 files
+[2024-05-20 21:01:32,809][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:33,634][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:33,635][main_x.py][line:239][INFO] Processed 2 out of 290.0 files
+[2024-05-20 21:01:33,667][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:34,811][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:34,813][main_x.py][line:239][INFO] Processed 3 out of 290.0 files
+[2024-05-20 21:01:34,866][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:36,226][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:36,227][main_x.py][line:239][INFO] Processed 4 out of 290.0 files
+[2024-05-20 21:01:36,255][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:38,460][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:38,460][main_x.py][line:239][INFO] Processed 5 out of 290.0 files
+[2024-05-20 21:01:38,551][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:41,521][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:41,521][main_x.py][line:239][INFO] Processed 6 out of 290.0 files
+[2024-05-20 21:01:41,596][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:43,090][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:43,090][main_x.py][line:239][INFO] Processed 7 out of 290.0 files
+[2024-05-20 21:01:43,164][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:43,908][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:43,909][main_x.py][line:239][INFO] Processed 8 out of 290.0 files
+[2024-05-20 21:01:43,976][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:44,934][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:44,935][main_x.py][line:239][INFO] Processed 9 out of 290.0 files
+[2024-05-20 21:01:44,982][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:45,782][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:45,783][main_x.py][line:239][INFO] Processed 10 out of 290.0 files
+[2024-05-20 21:01:45,840][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:46,610][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:46,611][main_x.py][line:239][INFO] Processed 11 out of 290.0 files
+[2024-05-20 21:01:46,649][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:47,265][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:47,267][main_x.py][line:239][INFO] Processed 12 out of 290.0 files
+[2024-05-20 21:01:47,300][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:49,329][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:49,329][main_x.py][line:239][INFO] Processed 13 out of 290.0 files
+[2024-05-20 21:01:49,395][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:50,108][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:50,109][main_x.py][line:239][INFO] Processed 14 out of 290.0 files
+[2024-05-20 21:01:50,147][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:51,462][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:51,463][main_x.py][line:239][INFO] Processed 15 out of 290.0 files
+[2024-05-20 21:01:51,528][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:53,471][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:53,471][main_x.py][line:239][INFO] Processed 16 out of 290.0 files
+[2024-05-20 21:01:53,515][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:56,576][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:56,576][main_x.py][line:239][INFO] Processed 17 out of 290.0 files
+[2024-05-20 21:01:56,651][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:57,459][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:57,460][main_x.py][line:239][INFO] Processed 18 out of 290.0 files
+[2024-05-20 21:01:57,507][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:01:59,342][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:01:59,342][main_x.py][line:239][INFO] Processed 19 out of 290.0 files
+[2024-05-20 21:01:59,396][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:00,301][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:00,302][main_x.py][line:239][INFO] Processed 20 out of 290.0 files
+[2024-05-20 21:02:00,356][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:01,193][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:01,194][main_x.py][line:239][INFO] Processed 21 out of 290.0 files
+[2024-05-20 21:02:01,291][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:02,555][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:02,556][main_x.py][line:239][INFO] Processed 22 out of 290.0 files
+[2024-05-20 21:02:02,603][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:03,698][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:03,699][main_x.py][line:239][INFO] Processed 23 out of 290.0 files
+[2024-05-20 21:02:03,738][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:07,134][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:07,134][main_x.py][line:239][INFO] Processed 24 out of 290.0 files
+[2024-05-20 21:02:07,186][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:07,954][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:07,954][main_x.py][line:239][INFO] Processed 25 out of 290.0 files
+[2024-05-20 21:02:08,008][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:09,220][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:09,221][main_x.py][line:239][INFO] Processed 26 out of 290.0 files
+[2024-05-20 21:02:09,324][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:10,292][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:10,294][main_x.py][line:239][INFO] Processed 27 out of 290.0 files
+[2024-05-20 21:02:10,441][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:12,373][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:12,373][main_x.py][line:239][INFO] Processed 28 out of 290.0 files
+[2024-05-20 21:02:12,419][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:15,038][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:15,038][main_x.py][line:239][INFO] Processed 29 out of 290.0 files
+[2024-05-20 21:02:15,105][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:18,077][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:18,077][main_x.py][line:239][INFO] Processed 30 out of 290.0 files
+[2024-05-20 21:02:18,156][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:18,805][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:18,806][main_x.py][line:239][INFO] Processed 31 out of 290.0 files
+[2024-05-20 21:02:18,893][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:20,100][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:20,100][main_x.py][line:239][INFO] Processed 32 out of 290.0 files
+[2024-05-20 21:02:20,153][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:21,133][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:21,133][main_x.py][line:239][INFO] Processed 33 out of 290.0 files
+[2024-05-20 21:02:21,172][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:24,733][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:24,733][main_x.py][line:239][INFO] Processed 34 out of 290.0 files
+[2024-05-20 21:02:24,817][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:25,626][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:25,627][main_x.py][line:239][INFO] Processed 35 out of 290.0 files
+[2024-05-20 21:02:25,669][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:26,492][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:26,493][main_x.py][line:239][INFO] Processed 36 out of 290.0 files
+[2024-05-20 21:02:26,547][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:27,234][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:27,235][main_x.py][line:239][INFO] Processed 37 out of 290.0 files
+[2024-05-20 21:02:27,303][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:28,252][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:28,253][main_x.py][line:239][INFO] Processed 38 out of 290.0 files
+[2024-05-20 21:02:28,318][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:28,937][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:28,937][main_x.py][line:239][INFO] Processed 39 out of 290.0 files
+[2024-05-20 21:02:28,976][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:29,762][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:29,764][main_x.py][line:239][INFO] Processed 40 out of 290.0 files
+[2024-05-20 21:02:29,858][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:30,426][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:30,427][main_x.py][line:239][INFO] Processed 41 out of 290.0 files
+[2024-05-20 21:02:30,482][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:31,133][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:31,135][main_x.py][line:239][INFO] Processed 42 out of 290.0 files
+[2024-05-20 21:02:31,249][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:32,374][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:32,375][main_x.py][line:239][INFO] Processed 43 out of 290.0 files
+[2024-05-20 21:02:32,457][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:33,032][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:33,034][main_x.py][line:239][INFO] Processed 44 out of 290.0 files
+[2024-05-20 21:02:33,170][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:33,749][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:33,751][main_x.py][line:239][INFO] Processed 45 out of 290.0 files
+[2024-05-20 21:02:33,866][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:34,683][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:34,684][main_x.py][line:239][INFO] Processed 46 out of 290.0 files
+[2024-05-20 21:02:34,763][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:35,678][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:35,679][main_x.py][line:239][INFO] Processed 47 out of 290.0 files
+[2024-05-20 21:02:35,716][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:36,810][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:36,811][main_x.py][line:239][INFO] Processed 48 out of 290.0 files
+[2024-05-20 21:02:36,855][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:37,803][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:37,805][main_x.py][line:239][INFO] Processed 49 out of 290.0 files
+[2024-05-20 21:02:37,912][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:39,254][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:39,254][main_x.py][line:239][INFO] Processed 50 out of 290.0 files
+[2024-05-20 21:02:39,364][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:40,114][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:40,116][main_x.py][line:239][INFO] Processed 51 out of 290.0 files
+[2024-05-20 21:02:40,241][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:41,893][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:41,895][main_x.py][line:239][INFO] Processed 52 out of 290.0 files
+[2024-05-20 21:02:41,956][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:42,907][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:42,908][main_x.py][line:239][INFO] Processed 53 out of 290.0 files
+[2024-05-20 21:02:42,996][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:43,768][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:43,769][main_x.py][line:239][INFO] Processed 54 out of 290.0 files
+[2024-05-20 21:02:43,825][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:44,405][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:44,407][main_x.py][line:239][INFO] Processed 55 out of 290.0 files
+[2024-05-20 21:02:44,477][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:45,249][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:45,250][main_x.py][line:239][INFO] Processed 56 out of 290.0 files
+[2024-05-20 21:02:45,304][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:46,535][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:46,537][main_x.py][line:239][INFO] Processed 57 out of 290.0 files
+[2024-05-20 21:02:46,620][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:47,352][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:47,353][main_x.py][line:239][INFO] Processed 58 out of 290.0 files
+[2024-05-20 21:02:47,432][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:47,893][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:47,895][main_x.py][line:239][INFO] Processed 59 out of 290.0 files
+[2024-05-20 21:02:48,026][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:48,472][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:48,473][main_x.py][line:239][INFO] Processed 60 out of 290.0 files
+[2024-05-20 21:02:48,527][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:49,170][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:49,171][main_x.py][line:239][INFO] Processed 61 out of 290.0 files
+[2024-05-20 21:02:49,231][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:49,879][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:49,881][main_x.py][line:239][INFO] Processed 62 out of 290.0 files
+[2024-05-20 21:02:49,981][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:50,827][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:50,828][main_x.py][line:239][INFO] Processed 63 out of 290.0 files
+[2024-05-20 21:02:50,872][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:51,434][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:51,436][main_x.py][line:239][INFO] Processed 64 out of 290.0 files
+[2024-05-20 21:02:51,584][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:52,370][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:52,371][main_x.py][line:239][INFO] Processed 65 out of 290.0 files
+[2024-05-20 21:02:52,419][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:52,907][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:52,908][main_x.py][line:239][INFO] Processed 66 out of 290.0 files
+[2024-05-20 21:02:53,064][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:53,785][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:53,786][main_x.py][line:239][INFO] Processed 67 out of 290.0 files
+[2024-05-20 21:02:53,824][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:54,722][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:54,723][main_x.py][line:239][INFO] Processed 68 out of 290.0 files
+[2024-05-20 21:02:54,778][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:55,199][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:55,202][main_x.py][line:239][INFO] Processed 69 out of 290.0 files
+[2024-05-20 21:02:55,393][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:56,078][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:56,078][main_x.py][line:239][INFO] Processed 70 out of 290.0 files
+[2024-05-20 21:02:56,162][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:56,906][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:56,907][main_x.py][line:239][INFO] Processed 71 out of 290.0 files
+[2024-05-20 21:02:56,964][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:57,571][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:57,572][main_x.py][line:239][INFO] Processed 72 out of 290.0 files
+[2024-05-20 21:02:57,692][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:58,325][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:58,326][main_x.py][line:239][INFO] Processed 73 out of 290.0 files
+[2024-05-20 21:02:58,426][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:59,127][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:59,128][main_x.py][line:239][INFO] Processed 74 out of 290.0 files
+[2024-05-20 21:02:59,249][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:02:59,934][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:02:59,935][main_x.py][line:239][INFO] Processed 75 out of 290.0 files
+[2024-05-20 21:02:59,985][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:00,892][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:00,893][main_x.py][line:239][INFO] Processed 76 out of 290.0 files
+[2024-05-20 21:03:00,970][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:01,510][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:01,511][main_x.py][line:239][INFO] Processed 77 out of 290.0 files
+[2024-05-20 21:03:01,582][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:02,144][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:02,145][main_x.py][line:239][INFO] Processed 78 out of 290.0 files
+[2024-05-20 21:03:02,195][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:02,996][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:02,996][main_x.py][line:239][INFO] Processed 79 out of 290.0 files
+[2024-05-20 21:03:03,070][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:03,517][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:03,518][main_x.py][line:239][INFO] Processed 80 out of 290.0 files
+[2024-05-20 21:03:03,604][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:04,164][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:04,164][main_x.py][line:239][INFO] Processed 81 out of 290.0 files
+[2024-05-20 21:03:04,213][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:04,969][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:04,970][main_x.py][line:239][INFO] Processed 82 out of 290.0 files
+[2024-05-20 21:03:05,023][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:05,846][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:05,848][main_x.py][line:239][INFO] Processed 83 out of 290.0 files
+[2024-05-20 21:03:05,912][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:06,542][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:06,542][main_x.py][line:239][INFO] Processed 84 out of 290.0 files
+[2024-05-20 21:03:06,676][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:07,443][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:07,445][main_x.py][line:239][INFO] Processed 85 out of 290.0 files
+[2024-05-20 21:03:07,533][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:08,007][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:08,009][main_x.py][line:239][INFO] Processed 86 out of 290.0 files
+[2024-05-20 21:03:08,066][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:08,852][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:08,853][main_x.py][line:239][INFO] Processed 87 out of 290.0 files
+[2024-05-20 21:03:08,944][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:09,510][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:09,511][main_x.py][line:239][INFO] Processed 88 out of 290.0 files
+[2024-05-20 21:03:09,571][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:10,314][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:10,316][main_x.py][line:239][INFO] Processed 89 out of 290.0 files
+[2024-05-20 21:03:10,370][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:11,255][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:11,256][main_x.py][line:239][INFO] Processed 90 out of 290.0 files
+[2024-05-20 21:03:11,314][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:12,454][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:12,456][main_x.py][line:239][INFO] Processed 91 out of 290.0 files
+[2024-05-20 21:03:12,562][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:13,189][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:13,189][main_x.py][line:239][INFO] Processed 92 out of 290.0 files
+[2024-05-20 21:03:13,250][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:13,981][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:13,982][main_x.py][line:239][INFO] Processed 93 out of 290.0 files
+[2024-05-20 21:03:14,085][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:14,800][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:14,801][main_x.py][line:239][INFO] Processed 94 out of 290.0 files
+[2024-05-20 21:03:14,870][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:15,728][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:15,728][main_x.py][line:239][INFO] Processed 95 out of 290.0 files
+[2024-05-20 21:03:15,783][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:16,457][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:16,458][main_x.py][line:239][INFO] Processed 96 out of 290.0 files
+[2024-05-20 21:03:16,527][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:17,743][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:17,745][main_x.py][line:239][INFO] Processed 97 out of 290.0 files
+[2024-05-20 21:03:17,804][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:18,622][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:18,623][main_x.py][line:239][INFO] Processed 98 out of 290.0 files
+[2024-05-20 21:03:18,715][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:19,670][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:19,670][main_x.py][line:239][INFO] Processed 99 out of 290.0 files
+[2024-05-20 21:03:19,742][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:20,449][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:20,449][main_x.py][line:239][INFO] Processed 100 out of 290.0 files
+[2024-05-20 21:03:20,514][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:25,259][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:25,259][main_x.py][line:239][INFO] Processed 101 out of 290.0 files
+[2024-05-20 21:03:25,343][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:26,403][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:26,405][main_x.py][line:239][INFO] Processed 102 out of 290.0 files
+[2024-05-20 21:03:26,497][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:27,338][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:27,339][main_x.py][line:239][INFO] Processed 103 out of 290.0 files
+[2024-05-20 21:03:27,398][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:27,767][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:27,768][main_x.py][line:239][INFO] Processed 104 out of 290.0 files
+[2024-05-20 21:03:27,930][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:28,689][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:28,689][main_x.py][line:239][INFO] Processed 105 out of 290.0 files
+[2024-05-20 21:03:28,744][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:29,989][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:29,990][main_x.py][line:239][INFO] Processed 106 out of 290.0 files
+[2024-05-20 21:03:30,093][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:31,909][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:31,911][main_x.py][line:239][INFO] Processed 107 out of 290.0 files
+[2024-05-20 21:03:31,990][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:32,924][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:32,925][main_x.py][line:239][INFO] Processed 108 out of 290.0 files
+[2024-05-20 21:03:32,990][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:34,179][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:34,179][main_x.py][line:239][INFO] Processed 109 out of 290.0 files
+[2024-05-20 21:03:34,242][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:35,853][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:35,855][main_x.py][line:239][INFO] Processed 110 out of 290.0 files
+[2024-05-20 21:03:35,909][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:36,564][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:36,566][main_x.py][line:239][INFO] Processed 111 out of 290.0 files
+[2024-05-20 21:03:36,649][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:37,928][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:37,929][main_x.py][line:239][INFO] Processed 112 out of 290.0 files
+[2024-05-20 21:03:37,986][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:38,957][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:38,958][main_x.py][line:239][INFO] Processed 113 out of 290.0 files
+[2024-05-20 21:03:39,045][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:39,707][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:39,708][main_x.py][line:239][INFO] Processed 114 out of 290.0 files
+[2024-05-20 21:03:39,761][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:40,574][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:40,574][main_x.py][line:239][INFO] Processed 115 out of 290.0 files
+[2024-05-20 21:03:40,637][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:41,076][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:41,078][main_x.py][line:239][INFO] Processed 116 out of 290.0 files
+[2024-05-20 21:03:41,189][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:42,494][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:42,496][main_x.py][line:239][INFO] Processed 117 out of 290.0 files
+[2024-05-20 21:03:42,589][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:43,936][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:43,938][main_x.py][line:239][INFO] Processed 118 out of 290.0 files
+[2024-05-20 21:03:44,048][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:44,813][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:44,815][main_x.py][line:239][INFO] Processed 119 out of 290.0 files
+[2024-05-20 21:03:44,944][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:45,710][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:45,710][main_x.py][line:239][INFO] Processed 120 out of 290.0 files
+[2024-05-20 21:03:45,757][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:46,373][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:46,374][main_x.py][line:239][INFO] Processed 121 out of 290.0 files
+[2024-05-20 21:03:46,445][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:47,258][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:47,262][main_x.py][line:239][INFO] Processed 122 out of 290.0 files
+[2024-05-20 21:03:47,479][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:48,085][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:48,087][main_x.py][line:239][INFO] Processed 123 out of 290.0 files
+[2024-05-20 21:03:48,245][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:48,880][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:48,881][main_x.py][line:239][INFO] Processed 124 out of 290.0 files
+[2024-05-20 21:03:48,973][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:51,463][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:51,465][main_x.py][line:239][INFO] Processed 125 out of 290.0 files
+[2024-05-20 21:03:51,558][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:52,356][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:52,358][main_x.py][line:239][INFO] Processed 126 out of 290.0 files
+[2024-05-20 21:03:52,455][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:53,384][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:53,385][main_x.py][line:239][INFO] Processed 127 out of 290.0 files
+[2024-05-20 21:03:53,479][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:56,306][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:56,312][main_x.py][line:239][INFO] Processed 128 out of 290.0 files
+[2024-05-20 21:03:56,396][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:57,053][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:57,054][main_x.py][line:239][INFO] Processed 129 out of 290.0 files
+[2024-05-20 21:03:57,120][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:58,234][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:58,235][main_x.py][line:239][INFO] Processed 130 out of 290.0 files
+[2024-05-20 21:03:58,294][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:03:59,012][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:03:59,013][main_x.py][line:239][INFO] Processed 131 out of 290.0 files
+[2024-05-20 21:03:59,087][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:00,387][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:00,388][main_x.py][line:239][INFO] Processed 132 out of 290.0 files
+[2024-05-20 21:04:00,507][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:01,220][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:01,220][main_x.py][line:239][INFO] Processed 133 out of 290.0 files
+[2024-05-20 21:04:01,286][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:02,509][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:02,513][main_x.py][line:239][INFO] Processed 134 out of 290.0 files
+[2024-05-20 21:04:02,587][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:03,172][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:03,173][main_x.py][line:239][INFO] Processed 135 out of 290.0 files
+[2024-05-20 21:04:03,284][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:04,356][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:04,358][main_x.py][line:239][INFO] Processed 136 out of 290.0 files
+[2024-05-20 21:04:04,446][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:05,860][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:05,860][main_x.py][line:239][INFO] Processed 137 out of 290.0 files
+[2024-05-20 21:04:05,988][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:07,119][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:07,121][main_x.py][line:239][INFO] Processed 138 out of 290.0 files
+[2024-05-20 21:04:07,200][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:07,824][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:07,824][main_x.py][line:239][INFO] Processed 139 out of 290.0 files
+[2024-05-20 21:04:07,896][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:08,848][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:08,849][main_x.py][line:239][INFO] Processed 140 out of 290.0 files
+[2024-05-20 21:04:08,926][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:09,397][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:09,399][main_x.py][line:239][INFO] Processed 141 out of 290.0 files
+[2024-05-20 21:04:09,592][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:10,290][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:10,291][main_x.py][line:239][INFO] Processed 142 out of 290.0 files
+[2024-05-20 21:04:10,357][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:11,144][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:11,146][main_x.py][line:239][INFO] Processed 143 out of 290.0 files
+[2024-05-20 21:04:11,211][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:11,729][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:11,729][main_x.py][line:239][INFO] Processed 144 out of 290.0 files
+[2024-05-20 21:04:11,893][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:12,512][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:12,512][main_x.py][line:239][INFO] Processed 145 out of 290.0 files
+[2024-05-20 21:04:12,615][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:13,605][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:13,606][main_x.py][line:239][INFO] Processed 146 out of 290.0 files
+[2024-05-20 21:04:13,685][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:14,265][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:14,266][main_x.py][line:239][INFO] Processed 147 out of 290.0 files
+[2024-05-20 21:04:14,340][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:14,786][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:14,789][main_x.py][line:239][INFO] Processed 148 out of 290.0 files
+[2024-05-20 21:04:14,930][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:16,320][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:16,321][main_x.py][line:239][INFO] Processed 149 out of 290.0 files
+[2024-05-20 21:04:16,515][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:17,309][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:17,355][main_x.py][line:239][INFO] Processed 150 out of 290.0 files
+[2024-05-20 21:04:17,435][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:18,018][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:18,019][main_x.py][line:239][INFO] Processed 151 out of 290.0 files
+[2024-05-20 21:04:18,082][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:18,810][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:18,810][main_x.py][line:239][INFO] Processed 152 out of 290.0 files
+[2024-05-20 21:04:18,902][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:19,797][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:19,799][main_x.py][line:239][INFO] Processed 153 out of 290.0 files
+[2024-05-20 21:04:19,880][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:20,546][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:20,547][main_x.py][line:239][INFO] Processed 154 out of 290.0 files
+[2024-05-20 21:04:20,679][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:21,796][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:21,798][main_x.py][line:239][INFO] Processed 155 out of 290.0 files
+[2024-05-20 21:04:21,939][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:22,612][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:22,613][main_x.py][line:239][INFO] Processed 156 out of 290.0 files
+[2024-05-20 21:04:22,676][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:23,300][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:23,302][main_x.py][line:239][INFO] Processed 157 out of 290.0 files
+[2024-05-20 21:04:23,365][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:24,557][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:24,557][main_x.py][line:239][INFO] Processed 158 out of 290.0 files
+[2024-05-20 21:04:24,630][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:25,089][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:25,091][main_x.py][line:239][INFO] Processed 159 out of 290.0 files
+[2024-05-20 21:04:25,287][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:25,803][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:25,804][main_x.py][line:239][INFO] Processed 160 out of 290.0 files
+[2024-05-20 21:04:25,933][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:26,435][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:26,436][main_x.py][line:239][INFO] Processed 161 out of 290.0 files
+[2024-05-20 21:04:26,554][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:27,021][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:27,022][main_x.py][line:239][INFO] Processed 162 out of 290.0 files
+[2024-05-20 21:04:27,251][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:27,807][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:27,808][main_x.py][line:239][INFO] Processed 163 out of 290.0 files
+[2024-05-20 21:04:27,889][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:28,416][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:28,417][main_x.py][line:239][INFO] Processed 164 out of 290.0 files
+[2024-05-20 21:04:28,502][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:29,233][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:29,234][main_x.py][line:239][INFO] Processed 165 out of 290.0 files
+[2024-05-20 21:04:29,308][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:31,171][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:31,171][main_x.py][line:239][INFO] Processed 166 out of 290.0 files
+[2024-05-20 21:04:31,341][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:32,436][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:32,436][main_x.py][line:239][INFO] Processed 167 out of 290.0 files
+[2024-05-20 21:04:32,577][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:33,140][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:33,141][main_x.py][line:239][INFO] Processed 168 out of 290.0 files
+[2024-05-20 21:04:33,227][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:34,100][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:34,100][main_x.py][line:239][INFO] Processed 169 out of 290.0 files
+[2024-05-20 21:04:34,170][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:34,881][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:34,883][main_x.py][line:239][INFO] Processed 170 out of 290.0 files
+[2024-05-20 21:04:34,952][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:36,232][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:36,234][main_x.py][line:239][INFO] Processed 171 out of 290.0 files
+[2024-05-20 21:04:36,308][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:37,021][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:37,022][main_x.py][line:239][INFO] Processed 172 out of 290.0 files
+[2024-05-20 21:04:37,073][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:38,601][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:38,603][main_x.py][line:239][INFO] Processed 173 out of 290.0 files
+[2024-05-20 21:04:38,695][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:39,960][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:39,962][main_x.py][line:239][INFO] Processed 174 out of 290.0 files
+[2024-05-20 21:04:40,072][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:41,776][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:41,776][main_x.py][line:239][INFO] Processed 175 out of 290.0 files
+[2024-05-20 21:04:41,891][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:42,348][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:42,349][main_x.py][line:239][INFO] Processed 176 out of 290.0 files
+[2024-05-20 21:04:42,497][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:42,946][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:42,948][main_x.py][line:239][INFO] Processed 177 out of 290.0 files
+[2024-05-20 21:04:43,189][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:43,783][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:43,784][main_x.py][line:239][INFO] Processed 178 out of 290.0 files
+[2024-05-20 21:04:43,886][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:44,837][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:44,837][main_x.py][line:239][INFO] Processed 179 out of 290.0 files
+[2024-05-20 21:04:44,915][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:45,760][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:45,760][main_x.py][line:239][INFO] Processed 180 out of 290.0 files
+[2024-05-20 21:04:45,829][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:46,568][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:46,569][main_x.py][line:239][INFO] Processed 181 out of 290.0 files
+[2024-05-20 21:04:46,672][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:47,098][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:47,100][main_x.py][line:239][INFO] Processed 182 out of 290.0 files
+[2024-05-20 21:04:47,230][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:48,644][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:48,646][main_x.py][line:239][INFO] Processed 183 out of 290.0 files
+[2024-05-20 21:04:48,725][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:49,220][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:49,220][main_x.py][line:239][INFO] Processed 184 out of 290.0 files
+[2024-05-20 21:04:49,304][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:50,985][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:50,985][main_x.py][line:239][INFO] Processed 185 out of 290.0 files
+[2024-05-20 21:04:51,055][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:51,725][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:51,726][main_x.py][line:239][INFO] Processed 186 out of 290.0 files
+[2024-05-20 21:04:51,796][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:52,275][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:52,276][main_x.py][line:239][INFO] Processed 187 out of 290.0 files
+[2024-05-20 21:04:52,389][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:53,610][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:53,612][main_x.py][line:239][INFO] Processed 188 out of 290.0 files
+[2024-05-20 21:04:53,701][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:54,287][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:54,288][main_x.py][line:239][INFO] Processed 189 out of 290.0 files
+[2024-05-20 21:04:54,423][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:55,569][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:55,571][main_x.py][line:239][INFO] Processed 190 out of 290.0 files
+[2024-05-20 21:04:55,742][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:56,731][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:56,732][main_x.py][line:239][INFO] Processed 191 out of 290.0 files
+[2024-05-20 21:04:56,829][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:04:59,294][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:04:59,294][main_x.py][line:239][INFO] Processed 192 out of 290.0 files
+[2024-05-20 21:04:59,371][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:00,234][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:00,235][main_x.py][line:239][INFO] Processed 193 out of 290.0 files
+[2024-05-20 21:05:00,402][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:01,551][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:01,552][main_x.py][line:239][INFO] Processed 194 out of 290.0 files
+[2024-05-20 21:05:01,648][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:02,387][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:02,388][main_x.py][line:239][INFO] Processed 195 out of 290.0 files
+[2024-05-20 21:05:02,499][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:03,795][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:03,796][main_x.py][line:239][INFO] Processed 196 out of 290.0 files
+[2024-05-20 21:05:03,873][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:06,620][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:06,620][main_x.py][line:239][INFO] Processed 197 out of 290.0 files
+[2024-05-20 21:05:06,788][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:07,740][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:07,741][main_x.py][line:239][INFO] Processed 198 out of 290.0 files
+[2024-05-20 21:05:07,843][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:08,609][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:08,609][main_x.py][line:239][INFO] Processed 199 out of 290.0 files
+[2024-05-20 21:05:08,683][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:09,598][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:09,599][main_x.py][line:239][INFO] Processed 200 out of 290.0 files
+[2024-05-20 21:05:09,673][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:10,790][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:10,792][main_x.py][line:239][INFO] Processed 201 out of 290.0 files
+[2024-05-20 21:05:10,911][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:11,737][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:11,737][main_x.py][line:239][INFO] Processed 202 out of 290.0 files
+[2024-05-20 21:05:11,864][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:12,508][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:12,509][main_x.py][line:239][INFO] Processed 203 out of 290.0 files
+[2024-05-20 21:05:12,577][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:13,357][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:13,358][main_x.py][line:239][INFO] Processed 204 out of 290.0 files
+[2024-05-20 21:05:13,466][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:14,029][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:14,031][main_x.py][line:239][INFO] Processed 205 out of 290.0 files
+[2024-05-20 21:05:14,134][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:15,917][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:15,917][main_x.py][line:239][INFO] Processed 206 out of 290.0 files
+[2024-05-20 21:05:16,031][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:16,567][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:16,568][main_x.py][line:239][INFO] Processed 207 out of 290.0 files
+[2024-05-20 21:05:16,682][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:17,237][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:17,241][main_x.py][line:239][INFO] Processed 208 out of 290.0 files
+[2024-05-20 21:05:17,364][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:17,945][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:17,945][main_x.py][line:239][INFO] Processed 209 out of 290.0 files
+[2024-05-20 21:05:18,018][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:18,619][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:18,622][main_x.py][line:239][INFO] Processed 210 out of 290.0 files
+[2024-05-20 21:05:18,761][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:19,483][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:19,483][main_x.py][line:239][INFO] Processed 211 out of 290.0 files
+[2024-05-20 21:05:19,615][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:20,761][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:20,763][main_x.py][line:239][INFO] Processed 212 out of 290.0 files
+[2024-05-20 21:05:20,833][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:22,059][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:22,061][main_x.py][line:239][INFO] Processed 213 out of 290.0 files
+[2024-05-20 21:05:22,152][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:24,180][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:24,182][main_x.py][line:239][INFO] Processed 214 out of 290.0 files
+[2024-05-20 21:05:24,278][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:25,774][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:25,776][main_x.py][line:239][INFO] Processed 215 out of 290.0 files
+[2024-05-20 21:05:25,876][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:26,854][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:26,855][main_x.py][line:239][INFO] Processed 216 out of 290.0 files
+[2024-05-20 21:05:26,942][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:27,431][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:27,433][main_x.py][line:239][INFO] Processed 217 out of 290.0 files
+[2024-05-20 21:05:27,643][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:28,168][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:28,168][main_x.py][line:239][INFO] Processed 218 out of 290.0 files
+[2024-05-20 21:05:28,261][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:28,759][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:28,760][main_x.py][line:239][INFO] Processed 219 out of 290.0 files
+[2024-05-20 21:05:28,840][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:29,279][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:29,280][main_x.py][line:239][INFO] Processed 220 out of 290.0 files
+[2024-05-20 21:05:29,430][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:30,354][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:30,355][main_x.py][line:239][INFO] Processed 221 out of 290.0 files
+[2024-05-20 21:05:30,433][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:31,267][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:31,268][main_x.py][line:239][INFO] Processed 222 out of 290.0 files
+[2024-05-20 21:05:31,342][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:31,581][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:31,581][main_x.py][line:239][INFO] Processed 223 out of 290.0 files
+[2024-05-20 21:05:31,656][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:32,832][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:32,832][main_x.py][line:239][INFO] Processed 224 out of 290.0 files
+[2024-05-20 21:05:33,055][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:33,294][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:33,294][main_x.py][line:239][INFO] Processed 225 out of 290.0 files
+[2024-05-20 21:05:33,437][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:34,155][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:34,155][main_x.py][line:239][INFO] Processed 226 out of 290.0 files
+[2024-05-20 21:05:34,229][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:35,346][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:35,347][main_x.py][line:239][INFO] Processed 227 out of 290.0 files
+[2024-05-20 21:05:35,433][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:36,238][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:36,239][main_x.py][line:239][INFO] Processed 228 out of 290.0 files
+[2024-05-20 21:05:36,325][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:36,651][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:36,651][main_x.py][line:239][INFO] Processed 229 out of 290.0 files
+[2024-05-20 21:05:36,739][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:39,029][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:39,029][main_x.py][line:239][INFO] Processed 230 out of 290.0 files
+[2024-05-20 21:05:39,230][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:39,689][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:39,691][main_x.py][line:239][INFO] Processed 231 out of 290.0 files
+[2024-05-20 21:05:39,910][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:40,863][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:40,864][main_x.py][line:239][INFO] Processed 232 out of 290.0 files
+[2024-05-20 21:05:40,940][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:44,752][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:44,752][main_x.py][line:239][INFO] Processed 233 out of 290.0 files
+[2024-05-20 21:05:44,858][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:45,480][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:45,482][main_x.py][line:239][INFO] Processed 234 out of 290.0 files
+[2024-05-20 21:05:45,596][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:46,600][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:46,601][main_x.py][line:239][INFO] Processed 235 out of 290.0 files
+[2024-05-20 21:05:46,715][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:47,269][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:47,271][main_x.py][line:239][INFO] Processed 236 out of 290.0 files
+[2024-05-20 21:05:47,482][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:49,593][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:49,597][main_x.py][line:239][INFO] Processed 237 out of 290.0 files
+[2024-05-20 21:05:49,782][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:50,299][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:50,301][main_x.py][line:239][INFO] Processed 238 out of 290.0 files
+[2024-05-20 21:05:50,572][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:51,642][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:51,642][main_x.py][line:239][INFO] Processed 239 out of 290.0 files
+[2024-05-20 21:05:51,717][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:53,439][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:53,441][main_x.py][line:239][INFO] Processed 240 out of 290.0 files
+[2024-05-20 21:05:53,537][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:54,102][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:54,103][main_x.py][line:239][INFO] Processed 241 out of 290.0 files
+[2024-05-20 21:05:54,193][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:54,552][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:54,553][main_x.py][line:239][INFO] Processed 242 out of 290.0 files
+[2024-05-20 21:05:54,690][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:55,934][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:55,935][main_x.py][line:239][INFO] Processed 243 out of 290.0 files
+[2024-05-20 21:05:56,049][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:57,107][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:57,108][main_x.py][line:239][INFO] Processed 244 out of 290.0 files
+[2024-05-20 21:05:57,181][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:57,789][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:57,790][main_x.py][line:239][INFO] Processed 245 out of 290.0 files
+[2024-05-20 21:05:57,868][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:05:59,557][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:05:59,558][main_x.py][line:239][INFO] Processed 246 out of 290.0 files
+[2024-05-20 21:05:59,693][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:00,557][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:00,558][main_x.py][line:239][INFO] Processed 247 out of 290.0 files
+[2024-05-20 21:06:00,638][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:01,699][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:01,700][main_x.py][line:239][INFO] Processed 248 out of 290.0 files
+[2024-05-20 21:06:01,795][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:02,693][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:02,694][main_x.py][line:239][INFO] Processed 249 out of 290.0 files
+[2024-05-20 21:06:02,767][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:03,251][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:03,252][main_x.py][line:239][INFO] Processed 250 out of 290.0 files
+[2024-05-20 21:06:03,407][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:04,108][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:04,109][main_x.py][line:239][INFO] Processed 251 out of 290.0 files
+[2024-05-20 21:06:04,258][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:04,934][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:04,935][main_x.py][line:239][INFO] Processed 252 out of 290.0 files
+[2024-05-20 21:06:05,021][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:05,822][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:05,823][main_x.py][line:239][INFO] Processed 253 out of 290.0 files
+[2024-05-20 21:06:05,921][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:06,737][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:06,738][main_x.py][line:239][INFO] Processed 254 out of 290.0 files
+[2024-05-20 21:06:06,827][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:07,369][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:07,371][main_x.py][line:239][INFO] Processed 255 out of 290.0 files
+[2024-05-20 21:06:07,523][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:08,096][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:08,097][main_x.py][line:239][INFO] Processed 256 out of 290.0 files
+[2024-05-20 21:06:08,235][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:08,849][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:08,852][main_x.py][line:239][INFO] Processed 257 out of 290.0 files
+[2024-05-20 21:06:09,181][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:10,017][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:10,018][main_x.py][line:239][INFO] Processed 258 out of 290.0 files
+[2024-05-20 21:06:10,104][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:10,618][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:10,620][main_x.py][line:239][INFO] Processed 259 out of 290.0 files
+[2024-05-20 21:06:10,741][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:11,151][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:11,155][main_x.py][line:239][INFO] Processed 260 out of 290.0 files
+[2024-05-20 21:06:11,338][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:11,920][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:11,922][main_x.py][line:239][INFO] Processed 261 out of 290.0 files
+[2024-05-20 21:06:12,048][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:12,494][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:12,496][main_x.py][line:239][INFO] Processed 262 out of 290.0 files
+[2024-05-20 21:06:12,656][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:13,126][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:13,128][main_x.py][line:239][INFO] Processed 263 out of 290.0 files
+[2024-05-20 21:06:13,282][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:13,866][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:13,867][main_x.py][line:239][INFO] Processed 264 out of 290.0 files
+[2024-05-20 21:06:14,066][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:14,690][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:14,693][main_x.py][line:239][INFO] Processed 265 out of 290.0 files
+[2024-05-20 21:06:14,865][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:15,291][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:15,293][main_x.py][line:239][INFO] Processed 266 out of 290.0 files
+[2024-05-20 21:06:15,431][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:16,079][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:16,080][main_x.py][line:239][INFO] Processed 267 out of 290.0 files
+[2024-05-20 21:06:16,158][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:16,754][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:16,754][main_x.py][line:239][INFO] Processed 268 out of 290.0 files
+[2024-05-20 21:06:16,842][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:06:20,658][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:06:20,658][main_x.py][line:239][INFO] Processed 269 out of 290.0 files
+[2024-05-20 21:06:20,743][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:07,571][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:07,658][main_x.py][line:239][INFO] Processed 270 out of 290.0 files
+[2024-05-20 21:08:09,674][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:15,458][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:15,465][main_x.py][line:239][INFO] Processed 271 out of 290.0 files
+[2024-05-20 21:08:22,461][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:23,604][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:23,604][main_x.py][line:239][INFO] Processed 272 out of 290.0 files
+[2024-05-20 21:08:23,850][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:24,848][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:24,849][main_x.py][line:239][INFO] Processed 273 out of 290.0 files
+[2024-05-20 21:08:24,955][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:25,685][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:25,687][main_x.py][line:239][INFO] Processed 274 out of 290.0 files
+[2024-05-20 21:08:25,850][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:26,479][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:26,480][main_x.py][line:239][INFO] Processed 275 out of 290.0 files
+[2024-05-20 21:08:28,225][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:29,340][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:29,341][main_x.py][line:239][INFO] Processed 276 out of 290.0 files
+[2024-05-20 21:08:29,440][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:30,344][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:30,346][main_x.py][line:239][INFO] Processed 277 out of 290.0 files
+[2024-05-20 21:08:30,589][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:31,421][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:31,421][main_x.py][line:239][INFO] Processed 278 out of 290.0 files
+[2024-05-20 21:08:31,524][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:32,251][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:32,251][main_x.py][line:239][INFO] Processed 279 out of 290.0 files
+[2024-05-20 21:08:32,396][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:08:33,108][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:08:33,110][main_x.py][line:239][INFO] Processed 280 out of 290.0 files
+[2024-05-20 21:08:33,247][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:09:36,782][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:09:36,811][main_x.py][line:239][INFO] Processed 281 out of 290.0 files
+[2024-05-20 21:09:38,407][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:09:40,948][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:09:40,948][main_x.py][line:239][INFO] Processed 282 out of 290.0 files
+[2024-05-20 21:09:41,076][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:09:41,580][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:09:41,580][main_x.py][line:239][INFO] Processed 283 out of 290.0 files
+[2024-05-20 21:09:41,709][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:09:43,767][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:09:43,768][main_x.py][line:239][INFO] Processed 284 out of 290.0 files
+[2024-05-20 21:09:50,435][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:09:50,917][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:09:50,917][main_x.py][line:239][INFO] Processed 285 out of 290.0 files
+[2024-05-20 21:09:51,035][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:09:59,794][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:09:59,807][main_x.py][line:239][INFO] Processed 286 out of 290.0 files
+[2024-05-20 21:10:01,302][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:10:02,183][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:10:02,184][main_x.py][line:239][INFO] Processed 287 out of 290.0 files
+[2024-05-20 21:10:02,283][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:10:02,877][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:10:02,880][main_x.py][line:239][INFO] Processed 288 out of 290.0 files
+[2024-05-20 21:10:03,045][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-05-20 21:10:04,666][main_x.py][line:214][INFO] Processed 1/1
+[2024-05-20 21:10:04,666][main_x.py][line:239][INFO] Processed 289 out of 290.0 files
