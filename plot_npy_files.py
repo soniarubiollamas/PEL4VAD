@@ -18,6 +18,7 @@ def plot_npy_files(folder1, folder2, filename, label1, label2):
   plt.xlabel("Time (or Index)")
   plt.ylabel("Value")
   plt.title("Comparison of " + label1 + " and " + label2 + " for " + filename)
+  plt.ylim(0, 1)
 
   plt.legend()
 
@@ -25,8 +26,8 @@ def plot_npy_files(folder1, folder2, filename, label1, label2):
 
 folder1 = "frame_label/gt"  
 folder2 = "frame_label"
-filename = "Normal_Videos_033_x264_pred.npy"
+filename = "RoadAccidents020_x264_pred.npy"
 label1 = "original gt"
-label2 = "predicted gt"
+label2 = "predicted value"
 
 plot_npy_files(folder1, folder2, filename, label1, label2)
