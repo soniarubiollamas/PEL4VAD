@@ -7,7 +7,7 @@ def create_original_gt(gt_file, duration_dict):
         for line in f:
             # Extract video name and ground truth information
             video_name, anomaly, start_frame, end_frame, second_start_frame, second_end_frame = line.strip().split()
-            start_frame, end_frame, second_start_frame, second_start_frame = int(start_frame), int(end_frame), int(second_start_frame), int(second_end_frame)
+            start_frame, end_frame, second_start_frame, second_end_frame = int(start_frame), int(end_frame), int(second_start_frame), int(second_end_frame)
 
             video_name = video_name.split(".")[0]
             video_duration = duration_dict.get(video_name)
@@ -23,7 +23,7 @@ def create_original_gt(gt_file, duration_dict):
                 else:
                     video_predictions[start_frame-1:end_frame-1] = 1
             if second_start_frame != -1:
-                if second_end_frame == second_end_frame:
+                if second_start_frame == second_end_frame:
                    video_predictions[second_start_frame-1] = 1
                 else: 
                     video_predictions[second_start_frame-1:second_end_frame] = 1

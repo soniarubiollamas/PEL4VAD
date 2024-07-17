@@ -86,7 +86,7 @@ python main.py --dataset 'ucf' --mode 'train'  # dataset:['ucf', 'xd', 'sh']  mo
 ```
 - Run the following command for **test/inference**:
 ```
-python main.py --dataset 'ucf' --mode 'infer'  # dataset:['ucf', 'xd', 'sh']  mode:['train', 'infer']
+python main_x.py --dataset 'ucf' --mode 'infer'  # dataset:['ucf', 'xd', 'sh']  mode:['train', 'infer']
 ```
 
 ## Results and Models

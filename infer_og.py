@@ -28,21 +28,21 @@ def infer_func(model, dataloader, gt, logger, cfg):
             else:
                 pass
             logits = logits[:seq]
-
+            # breakpoint()
             pred = torch.cat((pred, logits))
             labels = gt_tmp[: seq_len[0]*16]
-            if torch.sum(labels) == 0:
+            if torch.sum(labels) == 0: # la suma de todos los labels es 0
                 normal_labels = torch.cat((normal_labels, labels))
                 normal_preds = torch.cat((normal_preds, logits))
             gt_tmp = gt_tmp[seq_len[0]*16:]
-
+        breakpoint()
         pred = list(pred.cpu().detach().numpy())
         far = cal_false_alarm(normal_labels, normal_preds)
         fpr, tpr, _ = roc_curve(list(gt), np.repeat(pred, 16))
         roc_auc = auc(fpr, tpr)
         pre, rec, _ = precision_recall_curve(list(gt), np.repeat(pred, 16))
         pr_auc = auc(rec, pre)
-
+        
     time_elapsed = time.time() - st
     logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
         roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))

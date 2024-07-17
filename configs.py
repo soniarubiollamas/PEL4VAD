@@ -14,7 +14,7 @@ def build_config(dataset):
         cfg.win_size = 9
         cfg.gamma = 0.6
         cfg.bias = 0.2
-        cfg.norm = True
+        cfg.norm = False #True
         # CC settings
         cfg.t_step = 9
         # training settings

@@ -15,18 +15,19 @@ from dataset import *
 
 from train import train_func
 from test import test_func
-from infer import infer_func
+from infer_metrics import infer_func
 import argparse
 import copy
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 
 def load_checkpoint(model, ckpt_path, logger):
     if os.path.isfile(ckpt_path):
         start_time = time.time()  # Start timer
         logger.info('loading pretrained checkpoint from {}.'.format(ckpt_path))
+        print(torch.cuda.is_available())
         # weight_dict = torch.load(ckpt_path)
         weight_dict = torch.load(ckpt_path, map_location=torch.device('cpu'))  # Force CPU
         model_dict = model.state_dict()
@@ -114,6 +115,7 @@ def main(cfg):
 
     model = XModel(cfg)
     gt = np.load(cfg.gt)
+    breakpoint()
     device = torch.device("cpu")
     model = model.to(device)
 
@@ -134,7 +136,7 @@ def main(cfg):
             # replace the batch to 10 when using ucf dataset
             # convert dataset_len to int
 
-            batch_size = 10 # set to 10 when using UCF dataset and saving prediction times
+            batch_size = 1 # 10  set to 10 when using UCF dataset and saving prediction times
             # batch_size = int(dataset_len) # when doing infer with gt
 
             # Create the .list file (e.g., 'batch_list.txt')
@@ -143,11 +145,11 @@ def main(cfg):
                 pass
                    
             # create excel file if it doesn't exist
-            if not os.path.exists('annotations/time_prediction.xlsx'):
+            if not os.path.exists('annotations/time_prediction_11_06.xlsx'):
                 df = pd.DataFrame(columns=['File name', 'checkpoint time', 'load dataset time', 'pred time','complete infer time'])
-                df.to_excel('annotations/time_prediction.xlsx', index=False)
+                df.to_excel('annotations/time_prediction_11_06.xlsx', index=False)
             else:
-                df = pd.read_excel('annotations/time_prediction.xlsx')
+                df = pd.read_excel('annotations/time_prediction_11_06.xlsx')
            
             
             # Results collection
@@ -167,7 +169,7 @@ def main(cfg):
                         if filename in df['File name'].values:
                             # skip this batch files, aka, go back to for start_index in range(0, len(dataset_files), batch_size):
                             logger.info(f"Skipping {filename} as it is already in the Excel file")
-                            skip_file = True
+                            skip_file = True # CHANGE TO TRUE WHEN NOT DOING INFER   UCF
                             break
                         else:
                             list_file.write(filename + '\n')
@@ -247,12 +249,7 @@ def main(cfg):
                     df_combined = pd.concat([df, df_new], ignore_index=True)
 
                     # Write the combined data back to the file
-                    df_combined.to_excel('annotations/time_prediction.xlsx', index=False)
-
-            
-
-          
-            
+                    # df_combined.to_excel('annotations/time_prediction_11_06.xlsx', index=False)
 
     else:
         raise RuntimeError('Invalid status!')

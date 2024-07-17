@@ -7,7 +7,7 @@ from utils import gen_label
 
 def CLAS2(logits, label, seq_len, criterion):
     logits = logits.squeeze()
-    ins_logits = torch.zeros(0).cuda()  # tensor([])
+    ins_logits = torch.zeros(0) #.cuda()  # tensor([])
     for i in range(logits.shape[0]):
         if label[i] == 0:
             tmp, _ = torch.topk(logits[i][:seq_len[i]], k=1, largest=True)

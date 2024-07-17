@@ -9,16 +9,16 @@ from utils import setup_seed
 from log import get_logger
 
 from model import XModel
-from dataset import *
+from dataset_ucf import *
 
 from train import train_func
 from test import test_func
-from infer import infer_func
+from infer_og import infer_func
 import argparse
 import copy
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
 
 def load_checkpoint(model, ckpt_path, logger):

@@ -18,10 +18,10 @@ class UCFDataset(data.Dataset):
         self.max_seqlen = cfg.max_seqlen
         self.tranform = transform
         self.test_mode = test_mode
-        self.normal_flag = 'Normal'
-        self.abnormal_dict = {'Normal':0,'Abuse':1, 'Arrest':2, 'Arson':3, 'Assault':4,
-                              'Burglary':5, 'Explosion':6, 'Fighting':7,'RoadAccidents':8,
-                              'Robbery':9, 'Shooting':10, 'Shoplifting':11, 'Stealing':12, 'Vandalism':13}
+        # self.normal_flag = 'Normal'
+        # self.abnormal_dict = {'Normal':0,'Abuse':1, 'Arrest':2, 'Arson':3, 'Assault':4,
+        #                       'Burglary':5, 'Explosion':6, 'Fighting':7,'RoadAccidents':8,
+        #                       'Robbery':9, 'Shooting':10, 'Shoplifting':11, 'Stealing':12, 'Vandalism':13}
         self.t_features = np.array(np.load(cfg.token_feat))
         self._parse_list()
 
@@ -32,31 +32,31 @@ class UCFDataset(data.Dataset):
         # video_name = self.list[index].strip('\n').split('/')[-1][:-4]
         feat_path = os.path.join(self.feat_prefix, self.list[index].strip('\n'))
         # breakpoint()
-        video_idx = self.list[index].strip('\n').split('/')[-1].split('_')[0]
-        if self.normal_flag in self.list[index]:
-            video_ano = video_idx
-            ano_idx = self.abnormal_dict[video_ano]
-            label = 0.0
-        else:
-            video_ano = video_idx[:-3]
-            ano_idx = self.abnormal_dict[video_ano]
-            label = 1.0
+        # video_idx = self.list[index].strip('\n').split('/')[-1].split('_')[0]
+        # if self.normal_flag in self.list[index]:
+        #     video_ano = video_idx
+        #     ano_idx = self.abnormal_dict[video_ano]
+        #     label = 0.0
+        # else:
+        #     video_ano = video_idx[:-3]
+        #     ano_idx = self.abnormal_dict[video_ano]
+        #     label = 1.0
         v_feat = np.array(np.load(feat_path), dtype=np.float32) # Load the video features
-        fg_feat = np.array(self.t_features[ano_idx, :], dtype=np.float16) # Load the abnormal features
-        bg_feat = np.array(self.t_features[0, :], dtype=np.float16) # Load the normal features 
-        fg_feat = fg_feat.reshape(1, 512) # Reshape the abnormal features
-        bg_feat = bg_feat.reshape(1, 512) # Reshape the normal features
-        t_feat = np.concatenate((bg_feat, fg_feat), axis=0)     # Concatenate the normal and abnormal features
+        # fg_feat = np.array(self.t_features[ano_idx, :], dtype=np.float16) # Load the abnormal features
+        # bg_feat = np.array(self.t_features[0, :], dtype=np.float16) # Load the normal features 
+        # fg_feat = fg_feat.reshape(1, 512) # Reshape the abnormal features
+        # bg_feat = bg_feat.reshape(1, 512) # Reshape the normal features
+        # t_feat = np.concatenate((bg_feat, fg_feat), axis=0)     # Concatenate the normal and abnormal features
         if self.tranform is not None:
             v_feat = self.tranform(v_feat)
-            t_feat = self.tranform(t_feat)
+            # t_feat = self.tranform(t_feat)
 
         if self.test_mode:
             filename = self.list[index].strip('\n')  # Add this line
             return v_feat, filename  #, filename #, label  # ano_idx , video_name 
         else:
             v_feat = process_feat(v_feat, self.max_seqlen, is_random=False)
-            return v_feat, t_feat #, label, ano_idx
+            return v_feat #, t_feat #, label, ano_idx
        
 
     def __len__(self):

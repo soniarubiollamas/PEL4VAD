@@ -16,7 +16,7 @@ def cal_false_alarm(gt, preds, threshold=0.5):
     preds[preds < threshold] = 0
     preds[preds >= threshold] = 1
     tn, fp, fn, tp = confusion_matrix(gt, preds, labels=[0, 1]).ravel()
-
+    
     far = fp / (fp + tn)
 
     return far

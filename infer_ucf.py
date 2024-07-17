@@ -24,16 +24,25 @@ def infer_func(model, dataloader, gt, logger, cfg):
             start_time_model = time.time()
             logits, _ = model(v_input, seq_len)
             model_time = time.time()- start_time_model
-            logits = torch.mean(logits, 0) 
-            logits = logits.squeeze(dim=-1)
 
+
+           
+            # logits.shape = torch.Size([10, 88, 1])
+            logits = torch.mean(logits, 0)  # torch.Size([88, 1])
+            logits = logits.squeeze(dim=-1) # torch.Size([88])
+
+
+             ######### OPTIMIZATION ###########
             seq = len(logits)
-            if cfg.smooth == 'fixed':
-                logits = fixed_smooth(logits, cfg.kappa)
-            elif cfg.smooth == 'slide':
-                logits = slide_smooth(logits, cfg.kappa)
-            else:
-                pass
+            # if cfg.smooth == 'fixed':
+            #     logits = fixed_smooth(logits, cfg.kappa)
+            # elif cfg.smooth == 'slide':
+            #     logits = slide_smooth(logits, cfg.kappa)
+            # else:
+            #     pass
+
+            # before: logits[1] = tensor(0.3753), logits[20] = tensor(0.8056)
+            # after: logits[1] = tensor(0.8281), logits[20] = tensor(0.8580)
             logits = logits[:seq]
             
 
@@ -55,7 +64,7 @@ def infer_func(model, dataloader, gt, logger, cfg):
         pr_auc = auc(rec, pre)
     filename_save = filename[0].split('/')[-1].split('.')[0]
     timestamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-    np.save('frame_label/'+filename_save+timestamp+'_pred.npy', pred)
+    np.save('frame_label/no_OPT'+filename_save+'_pred_NO_OPT.npy', pred)
     time_elapsed = time.time() - st
     logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
         roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))

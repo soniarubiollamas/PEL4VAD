@@ -20,10 +20,10 @@ fancy_data = [
     (60, 6)
 ]
 
-
-gt_path = "frame_label/gt/Assault010_x264_pred.npy"
-predictions_path = "frame_label/Assault010_x264_pred.npy"
-video_path = "videos/Assault010_x264.mp4"
+filename = "Explosion016"
+gt_path = f"frame_label/gt/{filename}_x264_pred.npy"
+predictions_path = f"frame_label/{filename}_x264_pred.npy"
+video_path = f"videos/{filename}_x264.mp4"
 
 anomaly_gt = []
 prediction = []

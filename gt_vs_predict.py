@@ -30,7 +30,7 @@ def compare_file_sizes(folder1, folder2, output_file):
 # Example usage
 folder1 = "frame_label/gt"
 folder2 = "frame_label"
-output_file = "file_size_comparison.xlsx"
+output_file = "annotations/file_size_comparison.xlsx"
 
 compare_file_sizes(folder1, folder2, output_file)
 

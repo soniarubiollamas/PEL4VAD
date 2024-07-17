@@ -31,7 +31,10 @@ print(max_duration)
 # bins = [min_duration + (i * (200 - min_duration) / (num_bins - 1)) for i in range(num_bins)]
 # bins = np.linspace(min_duration,max_duration,num_bins+1).astype(int)
 # breakpoint()
-bins = [0, 10, 20, 30, 40, 100, 200, 300, 400, 500, 1000, 2000]
+# bins = [0, 10, 20, 30, 40, 100, 200, 300, 400, 500, 1000, 2000]
+# separate bins from 0 to 2000 separated 10
+bins = np.arange(0, 730, 10)
+
 # bins = [500, 1000, 2000, 3000, 4000]
 num_bins = len(bins)-1
 

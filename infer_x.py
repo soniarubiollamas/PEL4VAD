@@ -24,19 +24,22 @@ def infer_func(model, dataloader, gt, logger, cfg):
             start_time_model = time.time()
             logits, _ = model(v_input, seq_len)
             model_time = time.time()- start_time_model
+
             logits = torch.mean(logits, 0) 
             logits = logits.squeeze(dim=-1)
 
-            seq = len(logits)
-            if cfg.smooth == 'fixed':
-                logits = fixed_smooth(logits, cfg.kappa)
-            elif cfg.smooth == 'slide':
-                logits = slide_smooth(logits, cfg.kappa)
-            else:
-                pass
-            logits = logits[:seq]
-            
+            ########### NORMALIZATION ###########
 
+            # seq = len(logits)
+            # if cfg.smooth == 'fixed':
+            #     logits = fixed_smooth(logits, cfg.kappa)
+            # elif cfg.smooth == 'slide':
+            #     logits = slide_smooth(logits, cfg.kappa)
+            # else:
+            #     pass
+            # logits = logits[:seq]
+
+            
             pred = torch.cat((pred, logits)) 
             labels = gt_tmp[: seq_len[0]*16]
             if torch.sum(labels) == 0:
@@ -55,7 +58,7 @@ def infer_func(model, dataloader, gt, logger, cfg):
         # pr_auc = auc(rec, pre)
     filename_save = filename[0].split('/')[-1].split('.')[0]
     timestamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-    np.save('frame_label/'+filename_save+'_pred.npy', pred)
+    np.save('frame_label/26June/'+filename_save+'_pred_NoNorm_NoSmoothing.npy', pred)
     time_elapsed = time.time() - st
     # logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
     #     roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))
