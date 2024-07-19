@@ -21,6 +21,7 @@ def load_and_concatenate_files(pred_folder, gt_folder):
     gt_list = []
 
     for pred_file in os.listdir(pred_folder):
+        breakpoint()
         pred_path = os.path.join(pred_folder, pred_file)
         gt_path = os.path.join(gt_folder, pred_file)
 

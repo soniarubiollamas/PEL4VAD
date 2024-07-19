@@ -15,7 +15,7 @@ from dataset import *
 
 from train import train_func
 from test import test_func
-from infer_metrics import infer_func
+from infer_x import infer_func
 import argparse
 import copy
 
@@ -115,7 +115,6 @@ def main(cfg):
 
     model = XModel(cfg)
     gt = np.load(cfg.gt)
-    breakpoint()
     device = torch.device("cpu")
     model = model.to(device)
 
