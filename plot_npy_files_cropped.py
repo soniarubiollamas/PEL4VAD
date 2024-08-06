@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def plot_npy_files(folder1, folder2, name, label1, label2):
   
-  file_path1 = os.path.join(folder1, "Burglary005_x264_pred.npy")
+  file_path1 = os.path.join(folder1, "Shoplifting021_x264_pred.npy")
 
   for i in range(1,11):
     percentaje = i*10
@@ -45,9 +45,9 @@ def plot_npy_files(folder1, folder2, name, label1, label2):
 # not bad: Shooting037, RoadAccidents002, Explosion025, RoadAccidents010
 
 folder1 = "frame_label/gt"  
-folder2 = "frame_label/26June/"
-name = "Burglary005_x264_0"
+folder2 = "frame_label/all_good"
+name = "Shoplifting021_x264_"
 label1 = "original gt"
-label2 = "no norm no smoothing "
+label2 = "pred"
 
 plot_npy_files(folder1, folder2, name, label1, label2)

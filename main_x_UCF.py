@@ -15,7 +15,7 @@ from dataset_ucf import *
 
 from train import train_func
 from test import test_func
-from infer_og import infer_func
+from infer_ucf import infer_func
 import argparse
 import copy
 
@@ -26,7 +26,7 @@ import os
 def load_checkpoint(model, ckpt_path, logger):
     if os.path.isfile(ckpt_path):
         start_time = time.time()  # Start timer
-        logger.info('loading pretrained checkpoint from {}.'.format(ckpt_path))
+        # logger.info('loading pretrained checkpoint from {}.'.format(ckpt_path))
         # weight_dict = torch.load(ckpt_path)
         weight_dict = torch.load(ckpt_path, map_location=torch.device('cpu'))  # Force CPU
         model_dict = model.state_dict()
@@ -119,6 +119,7 @@ def main(cfg):
 
     param = sum(p.numel() for p in model.parameters())
     logger.info('total params:{:.4f}M'.format(param / (1000 ** 2)))
+    excel_file = 'annotations/time_prediction_newPC.xlsx'
 
     if args.mode == 'train':
         logger.info('Training Mode')
@@ -134,7 +135,7 @@ def main(cfg):
             # replace the batch to 10 when using ucf dataset
             # convert dataset_len to int
 
-            # batch_size = 1 # 10  set to 10 when using UCF dataset and saving prediction times
+            # batch_size = 10 # 10  set to 10 when using UCF dataset and saving prediction times
             batch_size = int(dataset_len) # when doing infer with gt
 
             # Create the .list file (e.g., 'batch_list.txt')
@@ -143,11 +144,11 @@ def main(cfg):
                 pass
                    
             # create excel file if it doesn't exist
-            if not os.path.exists('annotations/time_prediction_OPT.xlsx'):
+            if not os.path.exists(excel_file):
                 df = pd.DataFrame(columns=['File name', 'checkpoint time', 'load dataset time', 'pred time','complete infer time'])
-                df.to_excel('annotations/time_prediction_OPT.xlsx', index=False)
+                df.to_excel(excel_file, index=False)
             else:
-                df = pd.read_excel('annotations/time_prediction_OPT.xlsx')
+                df = pd.read_excel(excel_file)
            
             
             # Results collection
@@ -164,13 +165,13 @@ def main(cfg):
                 with open(list_file_path, 'a') as list_file:
                     for filename in current_batch:
                         # Check if the filename is already in the excel file
-                        if filename in df['File name'].values:
-                            # skip this batch files, aka, go back to for start_index in range(0, len(dataset_files), batch_size):
-                            logger.info(f"Skipping {filename} as it is already in the Excel file")
-                            skip_file = True # CHANGE TO TRUE WHEN NOT DOING INFER   UCF
-                            break
-                        else:
-                            list_file.write(filename + '\n')
+                        # if filename in df['File name'].values:
+                        #     # skip this batch files, aka, go back to for start_index in range(0, len(dataset_files), batch_size):
+                        #     logger.info(f"Skipping {filename} as it is already in the Excel file")
+                        #     skip_file = True # CHANGE TO TRUE WHEN NOT DOING INFER   UCF
+                        #     break
+                        # else:
+                        list_file.write(filename + '\n')
                 if skip_file:
                     # next batch
                     continue
@@ -211,7 +212,7 @@ def main(cfg):
                         total_load_time += time_load_dataset
                         total_model_time += time_model
 
-                        logger.info(f"Processed {num_files+1}/{repeat}")
+                        # logger.info(f"Processed {num_files+1}/{repeat}")
                         num_files += 1
 
                     
@@ -236,7 +237,7 @@ def main(cfg):
                         'complete infer time': average_complete_time
                     })
                 
-                    logger.info(f"Processed {files_processed+1} out of {dataset_len/batch_size} files")
+                    # logger.info(f"Processed {files_processed+1} out of {dataset_len/batch_size} files")
                     files_processed += 1
 
                     # Remove the .list file
@@ -247,7 +248,9 @@ def main(cfg):
                     df_combined = pd.concat([df, df_new], ignore_index=True)
 
                     # Write the combined data back to the file
-                    df_combined.to_excel('annotations/time_prediction_OPT.xlsx', index=False)
+                    df_combined.to_excel(excel_file, index=False)
+            logger.info(' Prediction time in {:.0f}m {:.4f}s\n'.format(total_model_time // 60, total_model_time % 60))
+            logger.info(' Infer time in {:.0f}m {:.4f}s\n'.format(total_complete_time // 60, total_complete_time % 60))
 
             
 

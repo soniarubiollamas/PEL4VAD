@@ -34,12 +34,12 @@ def infer_func(model, dataloader, gt, logger, cfg):
 
              ######### OPTIMIZATION ###########
             seq = len(logits)
-            # if cfg.smooth == 'fixed':
-            #     logits = fixed_smooth(logits, cfg.kappa)
-            # elif cfg.smooth == 'slide':
-            #     logits = slide_smooth(logits, cfg.kappa)
-            # else:
-            #     pass
+            if cfg.smooth == 'fixed':
+                logits = fixed_smooth(logits, cfg.kappa)
+            elif cfg.smooth == 'slide':
+                logits = slide_smooth(logits, cfg.kappa)
+            else:
+                pass
 
             # before: logits[1] = tensor(0.3753), logits[20] = tensor(0.8056)
             # after: logits[1] = tensor(0.8281), logits[20] = tensor(0.8580)
@@ -62,14 +62,16 @@ def infer_func(model, dataloader, gt, logger, cfg):
         roc_auc = auc(fpr, tpr)
         pre, rec, _ = precision_recall_curve(list(gt), np.repeat(pred, 16))
         pr_auc = auc(rec, pre)
-    filename_save = filename[0].split('/')[-1].split('.')[0]
-    timestamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-    np.save('frame_label/no_OPT'+filename_save+'_pred_NO_OPT.npy', pred)
+    # filename_save = filename[0].split('/')[-1].split('.')[0]
+    # timestamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
+    # np.save('frame_label/no_OPT'+filename_save+'_pred_NO_OPT.npy', pred)
     time_elapsed = time.time() - st
     logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
         roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))
     logger.info(' Complete in {:.0f}m {:.4f}s\n'.format(
         time_elapsed // 60, time_elapsed % 60))
+    logger.info(' Prediction time in {:.0f}m {:.4f}s\n'.format(
+        model_time // 60, model_time % 60))
     return time_load_dataset, model_time
     
     

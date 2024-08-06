@@ -135,7 +135,7 @@ def main(cfg):
             # replace the batch to 10 when using ucf dataset
             # convert dataset_len to int
 
-            batch_size = 1 # 10  set to 10 when using UCF dataset and saving prediction times
+            batch_size = 10 # 10  set to 10 when using UCF dataset and saving prediction times
             # batch_size = int(dataset_len) # when doing infer with gt
 
             # Create the .list file (e.g., 'batch_list.txt')
@@ -165,13 +165,14 @@ def main(cfg):
                 with open(list_file_path, 'a') as list_file:
                     for filename in current_batch:
                         # Check if the filename is already in the excel file
-                        if filename in df['File name'].values:
-                            # skip this batch files, aka, go back to for start_index in range(0, len(dataset_files), batch_size):
-                            logger.info(f"Skipping {filename} as it is already in the Excel file")
-                            skip_file = True # CHANGE TO TRUE WHEN NOT DOING INFER   UCF
-                            break
-                        else:
-                            list_file.write(filename + '\n')
+                        # if filename in df['File name'].values:
+                        #     # skip this batch files, aka, go back to for start_index in range(0, len(dataset_files), batch_size):
+                        #     logger.info(f"Skipping {filename} as it is already in the Excel file")
+                        #     skip_file = True # CHANGE TO TRUE WHEN NOT DOING INFER   UCF
+                        #     break
+                        # else:
+                        #     
+                        list_file.write(filename + '\n')
                 if skip_file:
                     # next batch
                     continue

@@ -62,8 +62,10 @@ def infer_func(model, dataloader, gt, logger, cfg):
     time_elapsed = time.time() - st
     # logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
     #     roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))
-    # logger.info(' Complete in {:.0f}m {:.4f}s\n'.format(
-        # time_elapsed // 60, time_elapsed % 60))
+    logger.info(' Complete in {:.0f}m {:.4f}s\n'.format(
+        time_elapsed // 60, time_elapsed % 60))
+    logger.info(' Prediction time in {:.0f}m {:.4f}s\n'.format(
+        model_time // 60, model_time % 60))
     return time_load_dataset, model_time
     
     

@@ -35,7 +35,6 @@ def infer_func(model, dataloader, gt, logger, cfg):
                 normal_labels = torch.cat((normal_labels, labels))
                 normal_preds = torch.cat((normal_preds, logits))
             gt_tmp = gt_tmp[seq_len[0]*16:]
-        breakpoint()
         pred = list(pred.cpu().detach().numpy())
         far = cal_false_alarm(normal_labels, normal_preds)
         fpr, tpr, _ = roc_curve(list(gt), np.repeat(pred, 16))

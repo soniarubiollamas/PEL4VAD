@@ -12644,3 +12644,1807 @@ Parameter Group 0
 [2024-07-18 19:44:10,889][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
 [2024-07-18 19:44:10,966][main_x.py][line:215][INFO] Processed 1/1
 [2024-07-18 19:44:10,967][main_x.py][line:240][INFO] Processed 93 out of 93.0 files
+[2024-07-19 19:12:59,846][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-19 19:13:01,167][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-19 19:13:01,167][main_x.py][line:129][INFO] Test Mode
+[2024-07-19 19:13:04,042][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:06,612][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:06,613][main_x.py][line:240][INFO] Processed 1 out of 72.0 files
+[2024-07-19 19:13:06,667][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:07,101][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:07,101][main_x.py][line:240][INFO] Processed 2 out of 72.0 files
+[2024-07-19 19:13:07,111][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:07,424][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:07,424][main_x.py][line:240][INFO] Processed 3 out of 72.0 files
+[2024-07-19 19:13:07,429][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:07,863][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:07,866][main_x.py][line:240][INFO] Processed 4 out of 72.0 files
+[2024-07-19 19:13:07,878][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:08,233][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:08,233][main_x.py][line:240][INFO] Processed 5 out of 72.0 files
+[2024-07-19 19:13:08,245][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:08,562][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:08,562][main_x.py][line:240][INFO] Processed 6 out of 72.0 files
+[2024-07-19 19:13:08,574][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:08,816][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:08,816][main_x.py][line:240][INFO] Processed 7 out of 72.0 files
+[2024-07-19 19:13:08,830][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:09,165][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:09,165][main_x.py][line:240][INFO] Processed 8 out of 72.0 files
+[2024-07-19 19:13:09,174][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:09,671][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:09,671][main_x.py][line:240][INFO] Processed 9 out of 72.0 files
+[2024-07-19 19:13:09,678][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:09,816][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:09,816][main_x.py][line:240][INFO] Processed 10 out of 72.0 files
+[2024-07-19 19:13:09,837][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:09,985][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:09,985][main_x.py][line:240][INFO] Processed 11 out of 72.0 files
+[2024-07-19 19:13:09,993][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:10,114][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:10,114][main_x.py][line:240][INFO] Processed 12 out of 72.0 files
+[2024-07-19 19:13:10,128][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:10,421][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:10,421][main_x.py][line:240][INFO] Processed 13 out of 72.0 files
+[2024-07-19 19:13:10,432][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:11,019][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:11,019][main_x.py][line:240][INFO] Processed 14 out of 72.0 files
+[2024-07-19 19:13:11,059][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:11,917][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:11,918][main_x.py][line:240][INFO] Processed 15 out of 72.0 files
+[2024-07-19 19:13:11,918][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:12,138][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:12,138][main_x.py][line:240][INFO] Processed 16 out of 72.0 files
+[2024-07-19 19:13:12,138][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:12,365][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:12,366][main_x.py][line:240][INFO] Processed 17 out of 72.0 files
+[2024-07-19 19:13:12,374][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:12,569][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:12,569][main_x.py][line:240][INFO] Processed 18 out of 72.0 files
+[2024-07-19 19:13:12,577][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:12,775][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:12,775][main_x.py][line:240][INFO] Processed 19 out of 72.0 files
+[2024-07-19 19:13:12,775][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:13,027][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:13,027][main_x.py][line:240][INFO] Processed 20 out of 72.0 files
+[2024-07-19 19:13:13,035][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:13,351][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:13,351][main_x.py][line:240][INFO] Processed 21 out of 72.0 files
+[2024-07-19 19:13:13,351][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:13,509][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:13,509][main_x.py][line:240][INFO] Processed 22 out of 72.0 files
+[2024-07-19 19:13:13,520][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:13,739][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:13,739][main_x.py][line:240][INFO] Processed 23 out of 72.0 files
+[2024-07-19 19:13:13,748][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:13,992][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:13,992][main_x.py][line:240][INFO] Processed 24 out of 72.0 files
+[2024-07-19 19:13:13,992][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:14,117][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:14,117][main_x.py][line:240][INFO] Processed 25 out of 72.0 files
+[2024-07-19 19:13:14,126][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:14,266][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:14,266][main_x.py][line:240][INFO] Processed 26 out of 72.0 files
+[2024-07-19 19:13:14,279][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:14,461][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:14,461][main_x.py][line:240][INFO] Processed 27 out of 72.0 files
+[2024-07-19 19:13:14,497][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:14,656][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:14,656][main_x.py][line:240][INFO] Processed 28 out of 72.0 files
+[2024-07-19 19:13:14,693][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:14,919][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:14,919][main_x.py][line:240][INFO] Processed 29 out of 72.0 files
+[2024-07-19 19:13:14,924][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:15,229][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:15,229][main_x.py][line:240][INFO] Processed 30 out of 72.0 files
+[2024-07-19 19:13:15,229][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:15,382][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:15,382][main_x.py][line:240][INFO] Processed 31 out of 72.0 files
+[2024-07-19 19:13:15,382][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:15,562][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:15,562][main_x.py][line:240][INFO] Processed 32 out of 72.0 files
+[2024-07-19 19:13:15,580][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:15,788][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:15,788][main_x.py][line:240][INFO] Processed 33 out of 72.0 files
+[2024-07-19 19:13:15,801][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:15,936][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:15,936][main_x.py][line:240][INFO] Processed 34 out of 72.0 files
+[2024-07-19 19:13:15,946][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:16,128][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:16,128][main_x.py][line:240][INFO] Processed 35 out of 72.0 files
+[2024-07-19 19:13:16,136][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:16,258][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:16,259][main_x.py][line:240][INFO] Processed 36 out of 72.0 files
+[2024-07-19 19:13:16,261][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:16,406][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:16,406][main_x.py][line:240][INFO] Processed 37 out of 72.0 files
+[2024-07-19 19:13:16,426][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:16,590][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:16,606][main_x.py][line:240][INFO] Processed 38 out of 72.0 files
+[2024-07-19 19:13:16,606][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:16,787][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:16,787][main_x.py][line:240][INFO] Processed 39 out of 72.0 files
+[2024-07-19 19:13:16,807][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:16,937][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:16,937][main_x.py][line:240][INFO] Processed 40 out of 72.0 files
+[2024-07-19 19:13:16,947][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:17,123][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:17,123][main_x.py][line:240][INFO] Processed 41 out of 72.0 files
+[2024-07-19 19:13:17,123][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:17,348][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:17,348][main_x.py][line:240][INFO] Processed 42 out of 72.0 files
+[2024-07-19 19:13:17,348][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:17,456][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:17,457][main_x.py][line:240][INFO] Processed 43 out of 72.0 files
+[2024-07-19 19:13:17,470][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:17,637][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:17,638][main_x.py][line:240][INFO] Processed 44 out of 72.0 files
+[2024-07-19 19:13:17,641][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:17,811][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:17,811][main_x.py][line:240][INFO] Processed 45 out of 72.0 files
+[2024-07-19 19:13:17,827][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:17,975][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:17,975][main_x.py][line:240][INFO] Processed 46 out of 72.0 files
+[2024-07-19 19:13:17,991][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:18,172][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:18,172][main_x.py][line:240][INFO] Processed 47 out of 72.0 files
+[2024-07-19 19:13:18,208][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:18,389][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:18,389][main_x.py][line:240][INFO] Processed 48 out of 72.0 files
+[2024-07-19 19:13:18,404][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:18,485][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:18,485][main_x.py][line:240][INFO] Processed 49 out of 72.0 files
+[2024-07-19 19:13:18,494][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:18,596][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:18,596][main_x.py][line:240][INFO] Processed 50 out of 72.0 files
+[2024-07-19 19:13:18,604][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:18,745][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:18,746][main_x.py][line:240][INFO] Processed 51 out of 72.0 files
+[2024-07-19 19:13:18,748][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:18,911][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:18,912][main_x.py][line:240][INFO] Processed 52 out of 72.0 files
+[2024-07-19 19:13:18,921][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:19,043][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:19,043][main_x.py][line:240][INFO] Processed 53 out of 72.0 files
+[2024-07-19 19:13:19,075][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:19,223][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:19,223][main_x.py][line:240][INFO] Processed 54 out of 72.0 files
+[2024-07-19 19:13:19,237][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:19,393][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:19,393][main_x.py][line:240][INFO] Processed 55 out of 72.0 files
+[2024-07-19 19:13:19,415][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:19,615][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:19,615][main_x.py][line:240][INFO] Processed 56 out of 72.0 files
+[2024-07-19 19:13:19,634][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:19,942][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:19,942][main_x.py][line:240][INFO] Processed 57 out of 72.0 files
+[2024-07-19 19:13:19,960][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:20,092][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:20,092][main_x.py][line:240][INFO] Processed 58 out of 72.0 files
+[2024-07-19 19:13:20,102][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:20,306][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:20,306][main_x.py][line:240][INFO] Processed 59 out of 72.0 files
+[2024-07-19 19:13:20,320][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:20,512][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:20,512][main_x.py][line:240][INFO] Processed 60 out of 72.0 files
+[2024-07-19 19:13:20,516][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:20,678][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:20,678][main_x.py][line:240][INFO] Processed 61 out of 72.0 files
+[2024-07-19 19:13:20,681][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:20,886][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:20,886][main_x.py][line:240][INFO] Processed 62 out of 72.0 files
+[2024-07-19 19:13:20,894][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:21,148][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:21,148][main_x.py][line:240][INFO] Processed 63 out of 72.0 files
+[2024-07-19 19:13:21,148][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:21,279][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:21,279][main_x.py][line:240][INFO] Processed 64 out of 72.0 files
+[2024-07-19 19:13:21,288][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:21,466][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:21,466][main_x.py][line:240][INFO] Processed 65 out of 72.0 files
+[2024-07-19 19:13:21,466][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:21,721][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:21,721][main_x.py][line:240][INFO] Processed 66 out of 72.0 files
+[2024-07-19 19:13:21,739][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:21,906][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:21,906][main_x.py][line:240][INFO] Processed 67 out of 72.0 files
+[2024-07-19 19:13:21,906][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:22,361][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:22,361][main_x.py][line:240][INFO] Processed 68 out of 72.0 files
+[2024-07-19 19:13:22,395][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:23,086][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:23,086][main_x.py][line:240][INFO] Processed 69 out of 72.0 files
+[2024-07-19 19:13:23,095][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:23,262][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:23,262][main_x.py][line:240][INFO] Processed 70 out of 72.0 files
+[2024-07-19 19:13:23,278][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:23,486][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:23,486][main_x.py][line:240][INFO] Processed 71 out of 72.0 files
+[2024-07-19 19:13:23,496][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 19:13:23,717][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 19:13:23,717][main_x.py][line:240][INFO] Processed 72 out of 72.0 files
+[2024-07-19 21:04:44,590][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-19 21:04:45,699][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-19 21:04:45,699][main_x.py][line:129][INFO] Test Mode
+[2024-07-19 21:04:46,437][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:48,948][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:48,948][main_x.py][line:240][INFO] Processed 1 out of 15.0 files
+[2024-07-19 21:04:48,965][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:49,129][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:49,129][main_x.py][line:240][INFO] Processed 2 out of 15.0 files
+[2024-07-19 21:04:49,146][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:49,279][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:49,279][main_x.py][line:240][INFO] Processed 3 out of 15.0 files
+[2024-07-19 21:04:49,279][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:49,331][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:49,331][main_x.py][line:240][INFO] Processed 4 out of 15.0 files
+[2024-07-19 21:04:49,345][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:49,480][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:49,480][main_x.py][line:240][INFO] Processed 5 out of 15.0 files
+[2024-07-19 21:04:49,480][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:49,750][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:49,751][main_x.py][line:240][INFO] Processed 6 out of 15.0 files
+[2024-07-19 21:04:49,780][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:49,974][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:49,974][main_x.py][line:240][INFO] Processed 7 out of 15.0 files
+[2024-07-19 21:04:49,974][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,095][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,095][main_x.py][line:240][INFO] Processed 8 out of 15.0 files
+[2024-07-19 21:04:50,095][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,227][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,227][main_x.py][line:240][INFO] Processed 9 out of 15.0 files
+[2024-07-19 21:04:50,246][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,329][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,329][main_x.py][line:240][INFO] Processed 10 out of 15.0 files
+[2024-07-19 21:04:50,348][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,456][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,457][main_x.py][line:240][INFO] Processed 11 out of 15.0 files
+[2024-07-19 21:04:50,462][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,563][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,563][main_x.py][line:240][INFO] Processed 12 out of 15.0 files
+[2024-07-19 21:04:50,563][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,662][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,663][main_x.py][line:240][INFO] Processed 13 out of 15.0 files
+[2024-07-19 21:04:50,669][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,779][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,779][main_x.py][line:240][INFO] Processed 14 out of 15.0 files
+[2024-07-19 21:04:50,779][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-19 21:04:50,943][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-19 21:04:50,943][main_x.py][line:240][INFO] Processed 15 out of 15.0 files
+[2024-07-20 12:01:45,632][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-20 12:01:46,945][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-20 12:01:46,945][main_x.py][line:129][INFO] Test Mode
+[2024-07-20 12:01:50,146][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-20 12:08:36,828][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-20 12:08:37,000][main_x.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-07-20 12:09:57,958][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-20 12:09:58,581][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-20 12:09:58,589][main_x.py][line:129][INFO] Test Mode
+[2024-07-20 12:10:02,011][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-20 12:14:45,826][infer_x.py][line:65][INFO]  Complete in 4m 43.1832s
+
+[2024-07-20 12:14:45,970][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-20 12:14:45,972][main_x.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-07-21 11:58:51,953][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-21 11:58:53,487][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-21 11:58:53,487][main_x.py][line:129][INFO] Test Mode
+[2024-07-21 11:58:56,866][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:06:55,088][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-21 12:06:55,127][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-21 12:06:55,128][main_x.py][line:129][INFO] Test Mode
+[2024-07-21 12:06:55,765][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:07:40,817][main_x_metric.py][line:114][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-21 12:09:26,158][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-21 12:09:26,252][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-21 12:09:26,253][main_x.py][line:129][INFO] Test Mode
+[2024-07-21 12:09:27,003][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:09:29,555][infer_x.py][line:65][INFO]  Complete in 0m 2.5335s
+
+[2024-07-21 12:09:29,556][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:09:29,556][main_x.py][line:240][INFO] Processed 1 out of 6.0 files
+[2024-07-21 12:09:29,705][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:09:29,851][infer_x.py][line:65][INFO]  Complete in 0m 0.1170s
+
+[2024-07-21 12:09:29,852][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:09:29,852][main_x.py][line:240][INFO] Processed 2 out of 6.0 files
+[2024-07-21 12:09:29,857][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:09:30,007][infer_x.py][line:65][INFO]  Complete in 0m 0.1222s
+
+[2024-07-21 12:09:30,008][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:09:30,008][main_x.py][line:240][INFO] Processed 3 out of 6.0 files
+[2024-07-21 12:09:30,018][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:09:30,222][infer_x.py][line:65][INFO]  Complete in 0m 0.1837s
+
+[2024-07-21 12:09:30,223][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:09:30,224][main_x.py][line:240][INFO] Processed 4 out of 6.0 files
+[2024-07-21 12:09:30,231][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:09:30,372][infer_x.py][line:65][INFO]  Complete in 0m 0.1212s
+
+[2024-07-21 12:09:30,374][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:09:30,374][main_x.py][line:240][INFO] Processed 5 out of 6.0 files
+[2024-07-21 12:09:30,384][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:09:30,557][infer_x.py][line:65][INFO]  Complete in 0m 0.1633s
+
+[2024-07-21 12:09:30,559][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:09:30,562][main_x.py][line:240][INFO] Processed 6 out of 6.0 files
+[2024-07-21 12:14:30,284][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-21 12:14:30,325][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-21 12:14:30,326][main_x.py][line:129][INFO] Test Mode
+[2024-07-21 12:14:30,885][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:14:30,920][infer_x.py][line:65][INFO]  Complete in 0m 0.0241s
+
+[2024-07-21 12:14:30,923][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:14:30,924][main_x.py][line:240][INFO] Processed 1 out of 6.0 files
+[2024-07-21 12:14:30,931][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:14:30,982][infer_x.py][line:65][INFO]  Complete in 0m 0.0362s
+
+[2024-07-21 12:14:30,983][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:14:30,984][main_x.py][line:240][INFO] Processed 2 out of 6.0 files
+[2024-07-21 12:14:31,007][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:14:31,080][infer_x.py][line:65][INFO]  Complete in 0m 0.0614s
+
+[2024-07-21 12:14:31,082][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:14:31,083][main_x.py][line:240][INFO] Processed 3 out of 6.0 files
+[2024-07-21 12:14:31,087][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:14:31,166][infer_x.py][line:65][INFO]  Complete in 0m 0.0662s
+
+[2024-07-21 12:14:31,167][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:14:31,168][main_x.py][line:240][INFO] Processed 4 out of 6.0 files
+[2024-07-21 12:14:31,174][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:14:31,222][infer_x.py][line:65][INFO]  Complete in 0m 0.0370s
+
+[2024-07-21 12:14:31,225][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:14:31,225][main_x.py][line:240][INFO] Processed 5 out of 6.0 files
+[2024-07-21 12:14:31,237][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:14:31,317][infer_x.py][line:65][INFO]  Complete in 0m 0.0671s
+
+[2024-07-21 12:14:31,319][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:14:31,319][main_x.py][line:240][INFO] Processed 6 out of 6.0 files
+[2024-07-21 12:17:48,105][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-21 12:17:48,144][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-21 12:17:48,144][main_x.py][line:129][INFO] Test Mode
+[2024-07-21 12:17:48,787][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:17:48,961][infer_x.py][line:65][INFO]  Complete in 0m 0.1510s
+
+[2024-07-21 12:17:48,962][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:17:48,964][main_x.py][line:240][INFO] Processed 1 out of 6.0 files
+[2024-07-21 12:17:48,985][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:17:49,105][infer_x.py][line:65][INFO]  Complete in 0m 0.0380s
+
+[2024-07-21 12:17:49,107][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:17:49,107][main_x.py][line:240][INFO] Processed 2 out of 6.0 files
+[2024-07-21 12:17:49,122][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:17:49,209][infer_x.py][line:65][INFO]  Complete in 0m 0.0495s
+
+[2024-07-21 12:17:49,211][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:17:49,211][main_x.py][line:240][INFO] Processed 3 out of 6.0 files
+[2024-07-21 12:17:49,219][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:17:49,399][infer_x.py][line:65][INFO]  Complete in 0m 0.1491s
+
+[2024-07-21 12:17:49,400][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:17:49,401][main_x.py][line:240][INFO] Processed 4 out of 6.0 files
+[2024-07-21 12:17:49,406][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:17:49,469][infer_x.py][line:65][INFO]  Complete in 0m 0.0454s
+
+[2024-07-21 12:17:49,470][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:17:49,471][main_x.py][line:240][INFO] Processed 5 out of 6.0 files
+[2024-07-21 12:17:49,476][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 12:17:49,579][infer_x.py][line:65][INFO]  Complete in 0m 0.0836s
+
+[2024-07-21 12:17:49,585][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 12:17:49,586][main_x.py][line:240][INFO] Processed 6 out of 6.0 files
+[2024-07-21 13:32:12,967][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-21 13:32:13,522][main_x.py][line:122][INFO] total params:1.2091M
+[2024-07-21 13:32:13,522][main_x.py][line:129][INFO] Test Mode
+[2024-07-21 13:32:16,594][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 13:32:18,358][infer_x.py][line:65][INFO]  Complete in 0m 1.3975s
+
+[2024-07-21 13:32:18,360][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 13:32:18,361][main_x.py][line:240][INFO] Processed 1 out of 6.0 files
+[2024-07-21 13:32:18,366][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 13:32:18,451][infer_x.py][line:65][INFO]  Complete in 0m 0.0743s
+
+[2024-07-21 13:32:18,452][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 13:32:18,453][main_x.py][line:240][INFO] Processed 2 out of 6.0 files
+[2024-07-21 13:32:18,462][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 13:32:18,509][infer_x.py][line:65][INFO]  Complete in 0m 0.0305s
+
+[2024-07-21 13:32:18,511][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 13:32:18,512][main_x.py][line:240][INFO] Processed 3 out of 6.0 files
+[2024-07-21 13:32:18,517][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 13:32:18,568][infer_x.py][line:65][INFO]  Complete in 0m 0.0355s
+
+[2024-07-21 13:32:18,569][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 13:32:18,570][main_x.py][line:240][INFO] Processed 4 out of 6.0 files
+[2024-07-21 13:32:18,578][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 13:32:18,682][infer_x.py][line:65][INFO]  Complete in 0m 0.0825s
+
+[2024-07-21 13:32:18,684][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 13:32:18,684][main_x.py][line:240][INFO] Processed 5 out of 6.0 files
+[2024-07-21 13:32:18,690][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-21 13:32:18,762][infer_x.py][line:65][INFO]  Complete in 0m 0.0552s
+
+[2024-07-21 13:32:18,764][main_x.py][line:215][INFO] Processed 1/1
+[2024-07-21 13:32:18,765][main_x.py][line:240][INFO] Processed 6 out of 6.0 files
+[2024-07-25 21:26:38,631][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-25 21:26:40,060][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-25 21:26:40,060][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-25 21:26:41,726][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-25 21:27:06,452][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-25 21:27:06,468][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-25 21:27:06,468][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-25 21:27:06,699][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-25 21:27:19,135][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-25 21:27:19,150][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-25 21:27:19,150][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-25 21:27:19,338][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-25 21:27:37,017][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-25 21:27:37,112][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-25 21:27:37,112][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-25 21:27:37,309][main_x_UCF.py][line:170][INFO] Skipping Abuse028_x264.npy as it is already in the Excel file
+[2024-07-25 21:27:40,953][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-25 21:27:40,968][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-25 21:27:40,968][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-25 21:27:41,149][main_x_UCF.py][line:170][INFO] Skipping Abuse028_x264.npy as it is already in the Excel file
+[2024-07-25 21:28:15,346][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-25 21:28:15,363][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-25 21:28:15,364][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-25 21:28:15,670][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-25 21:31:39,378][infer_og.py][line:46][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 3m 24s
+
+[2024-07-26 12:17:46,054][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-26 12:17:47,186][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-26 12:17:47,187][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-26 12:17:49,207][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-26 12:21:15,434][infer_og.py][line:46][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 3m 26s
+
+[2024-07-26 12:24:12,142][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-07-26 12:24:12,576][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-07-26 12:24:12,577][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-07-26 12:24:13,848][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-07-26 12:26:41,018][infer_ucf.py][line:69][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 2m 27s
+
+[2024-07-26 12:26:41,037][infer_ucf.py][line:71][INFO]  Complete in 2m 26.8326s
+
+[2024-07-26 12:26:41,055][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-07-26 12:26:41,056][main_x_UCF.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-01 20:57:09,491][main_x_UCF_CUDA.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-02 13:36:16,466][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-02 13:36:16,798][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-02 13:36:16,799][main_x.py][line:129][INFO] Test Mode
+[2024-08-02 13:36:58,699][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-02 13:36:58,714][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-02 13:36:58,714][main_x.py][line:129][INFO] Test Mode
+[2024-08-02 13:36:59,116][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 18:21:41,989][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:21:42,798][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-04 18:21:42,799][main_x.py][line:129][INFO] Test Mode
+[2024-08-04 18:21:44,720][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 18:30:42,068][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:30:42,106][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-04 18:30:42,107][main_x.py][line:129][INFO] Test Mode
+[2024-08-04 18:30:42,507][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 18:32:50,888][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:32:50,933][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-04 18:32:50,933][main_x.py][line:129][INFO] Test Mode
+[2024-08-04 18:32:54,900][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 18:33:05,898][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:33:05,931][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-04 18:33:05,931][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-04 18:33:06,361][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 18:35:39,599][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:35:39,630][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-04 18:35:39,630][main_x.py][line:129][INFO] Test Mode
+[2024-08-04 18:35:39,992][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 18:35:40,154][infer_x.py][line:65][INFO]  Complete in 0m 0.1496s
+
+[2024-08-04 18:35:40,155][main_x.py][line:215][INFO] Processed 1/1
+[2024-08-04 18:35:40,155][main_x.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-04 18:55:12,235][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:55:14,126][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-04 18:55:14,127][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-04 18:55:15,999][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 18:56:12,114][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:56:12,193][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-04 18:56:12,194][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-04 18:56:12,547][main_x_UCF.py][line:170][INFO] Skipping Abuse028_x264.npy as it is already in the Excel file
+[2024-08-04 18:56:40,076][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 18:56:40,110][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-04 18:56:40,110][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-04 18:56:40,475][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:01:29,029][infer_ucf.py][line:69][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 4m 49s
+
+[2024-08-04 19:01:29,192][infer_ucf.py][line:71][INFO]  Complete in 4m 48.5095s
+
+[2024-08-04 19:01:29,196][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-04 19:01:29,196][main_x_UCF.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:14:18,247][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:14:20,149][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-04 19:14:20,151][main_x.py][line:129][INFO] Test Mode
+[2024-08-04 19:14:22,376][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:14:27,193][infer_x.py][line:65][INFO]  Complete in 0m 4.1583s
+
+[2024-08-04 19:14:27,194][main_x.py][line:215][INFO] Processed 1/1
+[2024-08-04 19:14:27,195][main_x.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:22:36,553][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:22:38,793][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:22:38,794][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:22:40,867][main_x_CUDA.py][line:173][INFO] Skipping Abuse028_x264.npy as it is already in the Excel file
+[2024-08-04 19:22:41,439][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:24:00,729][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:24:00,842][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:24:00,842][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:24:01,088][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:25:07,152][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:25:07,264][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:25:07,264][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:25:07,498][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:27:24,507][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:27:24,627][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:27:24,628][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:27:24,859][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:27:38,570][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 13.7046s
+
+[2024-08-04 19:27:38,570][main_x_CUDA.py][line:218][INFO] Processed 1/1
+[2024-08-04 19:27:38,570][main_x_CUDA.py][line:243][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:28:44,001][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:28:44,125][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:28:44,125][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:28:44,316][main_x_CUDA.py][line:173][INFO] Skipping Shoplifting049_x264.npy as it is already in the Excel file
+[2024-08-04 19:29:09,585][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:29:09,709][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:29:09,710][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:29:09,965][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:29:23,821][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 13.8183s
+
+[2024-08-04 19:29:23,822][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-04 19:29:23,822][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:30:12,846][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:30:12,859][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-04 19:30:12,859][main_x.py][line:129][INFO] Test Mode
+[2024-08-04 19:30:12,989][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:30:13,032][infer_x.py][line:65][INFO]  Complete in 0m 0.0379s
+
+[2024-08-04 19:30:13,033][main_x.py][line:215][INFO] Processed 1/1
+[2024-08-04 19:30:13,033][main_x.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:30:54,440][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:30:54,452][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-04 19:30:54,453][main_x.py][line:129][INFO] Test Mode
+[2024-08-04 19:30:54,569][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:30:54,609][infer_x.py][line:65][INFO]  Complete in 0m 0.0359s
+
+[2024-08-04 19:30:54,610][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-04 19:30:54,610][main_x.py][line:241][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:31:56,573][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:31:56,700][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:31:56,701][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:31:56,959][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:32:11,119][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 14.1530s
+
+[2024-08-04 19:32:11,120][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-04 19:32:11,120][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:34:16,815][main_x_UCF_CUDA.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:34:27,507][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:34:27,523][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-04 19:34:27,523][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-04 19:34:27,728][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:37:38,521][infer_ucf.py][line:69][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 3m 11s
+
+[2024-08-04 19:37:38,544][infer_ucf.py][line:71][INFO]  Complete in 3m 10.7461s
+
+[2024-08-04 19:37:38,547][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-04 19:37:38,547][main_x_UCF.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:39:44,093][main_x_UCF_CUDA.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:39:45,905][main_x_UCF_CUDA.py][line:122][INFO] total params:1.2091M
+[2024-08-04 19:39:45,906][main_x_UCF_CUDA.py][line:130][INFO] Test Mode
+[2024-08-04 19:39:47,445][main_x_UCF_CUDA.py][line:171][INFO] Skipping Shoplifting049_x264.npy as it is already in the Excel file
+[2024-08-04 19:40:22,314][main_x_UCF_CUDA.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:40:22,446][main_x_UCF_CUDA.py][line:122][INFO] total params:1.2091M
+[2024-08-04 19:40:22,446][main_x_UCF_CUDA.py][line:130][INFO] Test Mode
+[2024-08-04 19:40:23,155][main_x_UCF_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:41:13,787][main_x_UCF_CUDA.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:41:13,947][main_x_UCF_CUDA.py][line:122][INFO] total params:1.2091M
+[2024-08-04 19:41:13,948][main_x_UCF_CUDA.py][line:130][INFO] Test Mode
+[2024-08-04 19:41:14,151][main_x_UCF_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:43:35,636][infer_ucf_CUDA.py][line:69][INFO] offline AUC:0.7281 AP:0.1637 FAR:0.1671 | Complete in 2m 21s
+
+[2024-08-04 19:43:35,638][infer_ucf_CUDA.py][line:71][INFO]  Complete in 2m 21.4740s
+
+[2024-08-04 19:43:35,639][main_x_UCF_CUDA.py][line:217][INFO] Processed 1/1
+[2024-08-04 19:43:35,639][main_x_UCF_CUDA.py][line:242][INFO] Processed 1 out of 1.0 files
+[2024-08-04 19:45:22,242][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-04 19:45:23,606][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-04 19:45:23,607][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-04 19:45:25,327][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:45:53,231][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 27.4374s
+
+[2024-08-04 19:45:53,231][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-04 19:45:53,231][main_x_CUDA.py][line:244][INFO] Processed 1 out of 290.0 files
+[2024-08-04 19:45:53,262][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-04 19:46:06,911][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 13.6320s
+
+[2024-08-04 19:46:06,911][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-04 19:46:06,911][main_x_CUDA.py][line:244][INFO] Processed 2 out of 290.0 files
+[2024-08-04 19:46:06,950][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 12:29:04,187][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 12:29:06,020][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-05 12:29:06,020][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-05 12:29:08,271][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 12:29:44,892][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 35.9407s
+
+[2024-08-05 12:29:44,893][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-05 12:29:44,894][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-05 12:31:19,940][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 12:31:20,067][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-05 12:31:20,067][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-05 12:31:20,278][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 12:31:34,349][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 14.0657s
+
+[2024-08-05 12:31:34,350][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-05 12:31:34,350][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-05 12:51:54,126][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 12:51:54,256][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-05 12:51:54,256][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-05 12:51:54,464][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 12:52:08,586][infer_x_CUDA.py][line:65][INFO]  Prediction time in 0m 14.1133s
+
+[2024-08-05 12:52:08,586][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-05 12:52:08,586][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-05 12:53:24,229][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 12:53:24,370][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-05 12:53:24,370][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-05 12:53:24,580][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 12:53:39,164][infer_x_CUDA.py][line:65][INFO]  Prediction time in 0m 0.1602s
+
+[2024-08-05 12:53:39,165][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-05 12:53:39,165][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-05 12:55:42,573][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 12:55:43,518][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-05 12:55:43,518][main_x.py][line:129][INFO] Test Mode
+[2024-08-05 12:55:45,552][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 12:55:48,889][infer_x.py][line:65][INFO]  Complete in 0m 3.1272s
+
+[2024-08-05 12:55:48,889][infer_x.py][line:67][INFO]  Prediction time in 0m 2.2727s
+
+[2024-08-05 12:55:48,891][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 12:55:48,891][main_x.py][line:241][INFO] Processed 1 out of 1.0 files
+[2024-08-05 12:59:18,795][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 12:59:18,832][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 12:59:18,832][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 12:59:18,995][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 12:59:53,060][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 12:59:53,073][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 12:59:53,074][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 12:59:53,209][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:02:53,917][infer_ucf.py][line:69][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 3m 1s
+
+[2024-08-05 13:02:53,940][infer_ucf.py][line:71][INFO]  Complete in 3m 0.6740s
+
+[2024-08-05 13:02:53,941][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0970s
+
+[2024-08-05 13:02:53,943][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:02:53,973][main_x_UCF.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:06:33,209][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:06:33,777][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:06:33,778][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:06:34,775][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:13:28,708][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:13:28,720][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:13:28,720][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:13:28,882][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:14:50,072][infer_ucf.py][line:69][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 1m 21s
+
+[2024-08-05 13:14:50,072][infer_ucf.py][line:71][INFO]  Complete in 1m 21.1814s
+
+[2024-08-05 13:14:50,073][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0975s
+
+[2024-08-05 13:14:50,073][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:14:50,073][main_x_UCF.py][line:240][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:14:50,227][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0975s
+
+[2024-08-05 13:14:50,228][main_x_UCF.py][line:253][INFO]  Infer time in 1m 21.1824s
+
+[2024-08-05 13:22:22,920][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:22:23,141][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:22:23,142][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:22:23,833][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:22:57,073][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:22:57,085][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:22:57,086][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:22:57,207][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:05,051][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:23:05,063][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:23:05,064][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:23:05,192][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:05,224][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0270s
+
+[2024-08-05 13:23:05,225][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0210s
+
+[2024-08-05 13:23:05,225][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:05,225][main_x_UCF.py][line:240][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:23:05,244][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0210s
+
+[2024-08-05 13:23:05,244][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0280s
+
+[2024-08-05 13:23:05,257][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:05,455][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1924s
+
+[2024-08-05 13:23:05,455][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0195s
+
+[2024-08-05 13:23:05,455][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:05,455][main_x_UCF.py][line:240][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:23:05,471][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0195s
+
+[2024-08-05 13:23:05,471][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.1924s
+
+[2024-08-05 13:23:05,474][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:05,759][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2783s
+
+[2024-08-05 13:23:05,759][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0280s
+
+[2024-08-05 13:23:05,759][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:05,759][main_x_UCF.py][line:240][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:23:05,776][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0280s
+
+[2024-08-05 13:23:05,776][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2783s
+
+[2024-08-05 13:23:05,778][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:06,148][infer_ucf.py][line:71][INFO]  Complete in 0m 0.3623s
+
+[2024-08-05 13:23:06,148][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0400s
+
+[2024-08-05 13:23:06,148][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:06,148][main_x_UCF.py][line:240][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:23:06,163][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0400s
+
+[2024-08-05 13:23:06,163][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.3623s
+
+[2024-08-05 13:23:06,178][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:06,621][infer_ucf.py][line:71][INFO]  Complete in 0m 0.4371s
+
+[2024-08-05 13:23:06,621][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0432s
+
+[2024-08-05 13:23:06,622][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:06,622][main_x_UCF.py][line:240][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:23:06,639][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0432s
+
+[2024-08-05 13:23:06,640][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.4381s
+
+[2024-08-05 13:23:06,646][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:07,565][infer_ucf.py][line:71][INFO]  Complete in 0m 0.9112s
+
+[2024-08-05 13:23:07,566][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.1208s
+
+[2024-08-05 13:23:07,566][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:07,566][main_x_UCF.py][line:240][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:23:07,634][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.1208s
+
+[2024-08-05 13:23:07,634][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.9122s
+
+[2024-08-05 13:23:07,658][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:09,242][infer_ucf.py][line:71][INFO]  Complete in 0m 1.5766s
+
+[2024-08-05 13:23:09,243][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.2429s
+
+[2024-08-05 13:23:09,243][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:09,243][main_x_UCF.py][line:240][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:23:09,287][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.2429s
+
+[2024-08-05 13:23:09,287][main_x_UCF.py][line:253][INFO]  Infer time in 0m 1.5776s
+
+[2024-08-05 13:23:09,315][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:10,054][infer_ucf.py][line:71][INFO]  Complete in 0m 0.7331s
+
+[2024-08-05 13:23:10,054][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0799s
+
+[2024-08-05 13:23:10,055][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:10,055][main_x_UCF.py][line:240][INFO] Processed 8 out of 290.0 files
+[2024-08-05 13:23:10,068][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0799s
+
+[2024-08-05 13:23:10,069][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.7341s
+
+[2024-08-05 13:23:10,082][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:10,293][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2042s
+
+[2024-08-05 13:23:10,293][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0100s
+
+[2024-08-05 13:23:10,294][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:10,294][main_x_UCF.py][line:240][INFO] Processed 9 out of 290.0 files
+[2024-08-05 13:23:10,308][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0100s
+
+[2024-08-05 13:23:10,309][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2052s
+
+[2024-08-05 13:23:10,311][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:10,689][infer_ucf.py][line:71][INFO]  Complete in 0m 0.3720s
+
+[2024-08-05 13:23:10,689][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0380s
+
+[2024-08-05 13:23:10,689][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:10,690][main_x_UCF.py][line:240][INFO] Processed 10 out of 290.0 files
+[2024-08-05 13:23:10,706][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0380s
+
+[2024-08-05 13:23:10,707][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.3720s
+
+[2024-08-05 13:23:10,714][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:10,905][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1838s
+
+[2024-08-05 13:23:10,905][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0160s
+
+[2024-08-05 13:23:10,906][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:10,906][main_x_UCF.py][line:240][INFO] Processed 11 out of 290.0 files
+[2024-08-05 13:23:10,920][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0160s
+
+[2024-08-05 13:23:10,920][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.1847s
+
+[2024-08-05 13:23:10,927][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:11,213][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2794s
+
+[2024-08-05 13:23:11,213][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0170s
+
+[2024-08-05 13:23:11,213][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:11,213][main_x_UCF.py][line:240][INFO] Processed 12 out of 290.0 files
+[2024-08-05 13:23:11,230][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0170s
+
+[2024-08-05 13:23:11,230][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2804s
+
+[2024-08-05 13:23:11,248][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:11,397][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1419s
+
+[2024-08-05 13:23:11,397][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0100s
+
+[2024-08-05 13:23:11,397][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:11,397][main_x_UCF.py][line:240][INFO] Processed 13 out of 290.0 files
+[2024-08-05 13:23:11,433][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0100s
+
+[2024-08-05 13:23:11,433][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.1419s
+
+[2024-08-05 13:23:11,435][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:12,368][infer_ucf.py][line:71][INFO]  Complete in 0m 0.9243s
+
+[2024-08-05 13:23:12,368][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.1125s
+
+[2024-08-05 13:23:12,368][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:12,368][main_x_UCF.py][line:240][INFO] Processed 14 out of 290.0 files
+[2024-08-05 13:23:12,429][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.1125s
+
+[2024-08-05 13:23:12,429][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.9253s
+
+[2024-08-05 13:23:12,451][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:12,686][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2291s
+
+[2024-08-05 13:23:12,686][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0170s
+
+[2024-08-05 13:23:12,686][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:12,686][main_x_UCF.py][line:240][INFO] Processed 15 out of 290.0 files
+[2024-08-05 13:23:12,703][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0170s
+
+[2024-08-05 13:23:12,703][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2291s
+
+[2024-08-05 13:23:12,705][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:13,165][infer_ucf.py][line:71][INFO]  Complete in 0m 0.4522s
+
+[2024-08-05 13:23:13,165][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0455s
+
+[2024-08-05 13:23:13,166][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:13,166][main_x_UCF.py][line:240][INFO] Processed 16 out of 290.0 files
+[2024-08-05 13:23:13,182][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0455s
+
+[2024-08-05 13:23:13,182][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.4532s
+
+[2024-08-05 13:23:13,195][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:14,048][infer_ucf.py][line:71][INFO]  Complete in 0m 0.8456s
+
+[2024-08-05 13:23:14,049][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.1070s
+
+[2024-08-05 13:23:14,049][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:14,049][main_x_UCF.py][line:240][INFO] Processed 17 out of 290.0 files
+[2024-08-05 13:23:14,064][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.1070s
+
+[2024-08-05 13:23:14,065][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.8466s
+
+[2024-08-05 13:23:14,074][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:15,671][infer_ucf.py][line:71][INFO]  Complete in 0m 1.5890s
+
+[2024-08-05 13:23:15,672][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.2397s
+
+[2024-08-05 13:23:15,672][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:15,672][main_x_UCF.py][line:240][INFO] Processed 18 out of 290.0 files
+[2024-08-05 13:23:15,696][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.2397s
+
+[2024-08-05 13:23:15,696][main_x_UCF.py][line:253][INFO]  Infer time in 0m 1.5900s
+
+[2024-08-05 13:23:15,698][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:15,977][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2728s
+
+[2024-08-05 13:23:15,977][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0220s
+
+[2024-08-05 13:23:15,977][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:15,977][main_x_UCF.py][line:240][INFO] Processed 19 out of 290.0 files
+[2024-08-05 13:23:16,001][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0220s
+
+[2024-08-05 13:23:16,001][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2728s
+
+[2024-08-05 13:23:16,003][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:16,836][infer_ucf.py][line:71][INFO]  Complete in 0m 0.8269s
+
+[2024-08-05 13:23:16,836][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0961s
+
+[2024-08-05 13:23:16,837][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:16,837][main_x_UCF.py][line:240][INFO] Processed 20 out of 290.0 files
+[2024-08-05 13:23:16,854][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0961s
+
+[2024-08-05 13:23:16,854][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.8279s
+
+[2024-08-05 13:23:16,856][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:17,160][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2989s
+
+[2024-08-05 13:23:17,161][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0250s
+
+[2024-08-05 13:23:17,161][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:17,161][main_x_UCF.py][line:240][INFO] Processed 21 out of 290.0 files
+[2024-08-05 13:23:17,179][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0250s
+
+[2024-08-05 13:23:17,179][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2999s
+
+[2024-08-05 13:23:17,182][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:17,389][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1994s
+
+[2024-08-05 13:23:17,390][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0133s
+
+[2024-08-05 13:23:17,390][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:17,390][main_x_UCF.py][line:240][INFO] Processed 22 out of 290.0 files
+[2024-08-05 13:23:17,405][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0133s
+
+[2024-08-05 13:23:17,406][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2004s
+
+[2024-08-05 13:23:17,408][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:17,618][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2043s
+
+[2024-08-05 13:23:17,618][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0197s
+
+[2024-08-05 13:23:17,619][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:17,619][main_x_UCF.py][line:240][INFO] Processed 23 out of 290.0 files
+[2024-08-05 13:23:17,635][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0197s
+
+[2024-08-05 13:23:17,635][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.2055s
+
+[2024-08-05 13:23:17,637][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:23:18,065][infer_ucf.py][line:71][INFO]  Complete in 0m 0.4212s
+
+[2024-08-05 13:23:18,066][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0410s
+
+[2024-08-05 13:23:18,066][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:23:18,066][main_x_UCF.py][line:240][INFO] Processed 24 out of 290.0 files
+[2024-08-05 13:23:18,082][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0410s
+
+[2024-08-05 13:23:18,083][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.4222s
+
+[2024-08-05 13:23:18,084][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:23,017][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:31:23,030][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-05 13:31:23,030][main_x.py][line:129][INFO] Test Mode
+[2024-08-05 13:31:23,219][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:23,259][infer_x.py][line:65][INFO]  Complete in 0m 0.0320s
+
+[2024-08-05 13:31:23,259][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0220s
+
+[2024-08-05 13:31:23,260][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:23,260][main_x.py][line:241][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:31:23,315][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:23,345][infer_x.py][line:65][INFO]  Complete in 0m 0.0260s
+
+[2024-08-05 13:31:23,345][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0180s
+
+[2024-08-05 13:31:23,345][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:23,346][main_x.py][line:241][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:31:23,350][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:23,423][infer_x.py][line:65][INFO]  Complete in 0m 0.0350s
+
+[2024-08-05 13:31:23,423][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0240s
+
+[2024-08-05 13:31:23,423][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:23,424][main_x.py][line:241][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:31:23,426][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:23,519][infer_x.py][line:65][INFO]  Complete in 0m 0.0850s
+
+[2024-08-05 13:31:23,520][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0350s
+
+[2024-08-05 13:31:23,520][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:23,520][main_x.py][line:241][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:31:23,523][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:23,604][infer_x.py][line:65][INFO]  Complete in 0m 0.0760s
+
+[2024-08-05 13:31:23,604][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0440s
+
+[2024-08-05 13:31:23,604][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:23,605][main_x.py][line:241][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:31:23,608][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:23,796][infer_x.py][line:65][INFO]  Complete in 0m 0.1840s
+
+[2024-08-05 13:31:23,796][infer_x.py][line:67][INFO]  Prediction time in 0m 0.1540s
+
+[2024-08-05 13:31:23,796][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:23,796][main_x.py][line:241][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:31:23,799][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,108][infer_x.py][line:65][INFO]  Complete in 0m 0.3050s
+
+[2024-08-05 13:31:24,109][infer_x.py][line:67][INFO]  Prediction time in 0m 0.2610s
+
+[2024-08-05 13:31:24,109][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,109][main_x.py][line:241][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:31:24,112][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,211][infer_x.py][line:65][INFO]  Complete in 0m 0.0950s
+
+[2024-08-05 13:31:24,212][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0740s
+
+[2024-08-05 13:31:24,212][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,212][main_x.py][line:241][INFO] Processed 8 out of 290.0 files
+[2024-08-05 13:31:24,216][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,239][infer_x.py][line:65][INFO]  Complete in 0m 0.0160s
+
+[2024-08-05 13:31:24,239][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0100s
+
+[2024-08-05 13:31:24,240][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,240][main_x.py][line:241][INFO] Processed 9 out of 290.0 files
+[2024-08-05 13:31:24,243][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,298][infer_x.py][line:65][INFO]  Complete in 0m 0.0510s
+
+[2024-08-05 13:31:24,298][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0380s
+
+[2024-08-05 13:31:24,299][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,299][main_x.py][line:241][INFO] Processed 10 out of 290.0 files
+[2024-08-05 13:31:24,304][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,330][infer_x.py][line:65][INFO]  Complete in 0m 0.0220s
+
+[2024-08-05 13:31:24,331][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0150s
+
+[2024-08-05 13:31:24,331][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,331][main_x.py][line:241][INFO] Processed 11 out of 290.0 files
+[2024-08-05 13:31:24,335][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,402][infer_x.py][line:65][INFO]  Complete in 0m 0.0630s
+
+[2024-08-05 13:31:24,402][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0190s
+
+[2024-08-05 13:31:24,402][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,402][main_x.py][line:241][INFO] Processed 12 out of 290.0 files
+[2024-08-05 13:31:24,406][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,424][infer_x.py][line:65][INFO]  Complete in 0m 0.0150s
+
+[2024-08-05 13:31:24,425][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0090s
+
+[2024-08-05 13:31:24,425][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,425][main_x.py][line:241][INFO] Processed 13 out of 290.0 files
+[2024-08-05 13:31:24,428][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,567][infer_x.py][line:65][INFO]  Complete in 0m 0.1350s
+
+[2024-08-05 13:31:24,568][infer_x.py][line:67][INFO]  Prediction time in 0m 0.1080s
+
+[2024-08-05 13:31:24,568][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,568][main_x.py][line:241][INFO] Processed 14 out of 290.0 files
+[2024-08-05 13:31:24,570][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,596][infer_x.py][line:65][INFO]  Complete in 0m 0.0220s
+
+[2024-08-05 13:31:24,597][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0140s
+
+[2024-08-05 13:31:24,597][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,597][main_x.py][line:241][INFO] Processed 15 out of 290.0 files
+[2024-08-05 13:31:24,600][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,658][infer_x.py][line:65][INFO]  Complete in 0m 0.0550s
+
+[2024-08-05 13:31:24,659][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0420s
+
+[2024-08-05 13:31:24,659][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,659][main_x.py][line:241][INFO] Processed 16 out of 290.0 files
+[2024-08-05 13:31:24,662][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:24,791][infer_x.py][line:65][INFO]  Complete in 0m 0.1230s
+
+[2024-08-05 13:31:24,791][infer_x.py][line:67][INFO]  Prediction time in 0m 0.1000s
+
+[2024-08-05 13:31:24,792][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:24,792][main_x.py][line:241][INFO] Processed 17 out of 290.0 files
+[2024-08-05 13:31:24,795][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:25,075][infer_x.py][line:65][INFO]  Complete in 0m 0.2770s
+
+[2024-08-05 13:31:25,076][infer_x.py][line:67][INFO]  Prediction time in 0m 0.2310s
+
+[2024-08-05 13:31:25,076][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:25,077][main_x.py][line:241][INFO] Processed 18 out of 290.0 files
+[2024-08-05 13:31:25,080][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:25,119][infer_x.py][line:65][INFO]  Complete in 0m 0.0360s
+
+[2024-08-05 13:31:25,119][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0240s
+
+[2024-08-05 13:31:25,119][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:25,119][main_x.py][line:241][INFO] Processed 19 out of 290.0 files
+[2024-08-05 13:31:25,122][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:25,250][infer_x.py][line:65][INFO]  Complete in 0m 0.1250s
+
+[2024-08-05 13:31:25,251][infer_x.py][line:67][INFO]  Prediction time in 0m 0.1000s
+
+[2024-08-05 13:31:25,251][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:25,251][main_x.py][line:241][INFO] Processed 20 out of 290.0 files
+[2024-08-05 13:31:25,254][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:25,294][infer_x.py][line:65][INFO]  Complete in 0m 0.0340s
+
+[2024-08-05 13:31:25,295][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0230s
+
+[2024-08-05 13:31:25,295][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:25,295][main_x.py][line:241][INFO] Processed 21 out of 290.0 files
+[2024-08-05 13:31:25,315][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:25,340][infer_x.py][line:65][INFO]  Complete in 0m 0.0210s
+
+[2024-08-05 13:31:25,341][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0130s
+
+[2024-08-05 13:31:25,341][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:25,342][main_x.py][line:241][INFO] Processed 22 out of 290.0 files
+[2024-08-05 13:31:25,344][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:25,376][infer_x.py][line:65][INFO]  Complete in 0m 0.0250s
+
+[2024-08-05 13:31:25,377][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0170s
+
+[2024-08-05 13:31:25,377][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:25,377][main_x.py][line:241][INFO] Processed 23 out of 290.0 files
+[2024-08-05 13:31:25,380][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:25,441][infer_x.py][line:65][INFO]  Complete in 0m 0.0540s
+
+[2024-08-05 13:31:25,442][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0400s
+
+[2024-08-05 13:31:25,443][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:25,443][main_x.py][line:241][INFO] Processed 24 out of 290.0 files
+[2024-08-05 13:31:25,446][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:34,060][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:31:34,127][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-05 13:31:34,128][main_x.py][line:129][INFO] Test Mode
+[2024-08-05 13:31:34,248][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:31:34,522][infer_x.py][line:65][INFO]  Complete in 0m 0.2658s
+
+[2024-08-05 13:31:34,522][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0262s
+
+[2024-08-05 13:31:34,523][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:31:34,523][main_x.py][line:241][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:32:35,734][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:32:37,380][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-05 13:32:37,380][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-05 13:32:39,455][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:33:12,482][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 32.6440s
+
+[2024-08-05 13:33:12,482][infer_x_CUDA.py][line:67][INFO]  Prediction time in 0m 8.2035s
+
+[2024-08-05 13:33:12,482][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-05 13:33:12,483][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:33:49,120][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:33:49,132][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-05 13:33:49,132][main_x.py][line:129][INFO] Test Mode
+[2024-08-05 13:33:49,326][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:33:51,426][infer_x.py][line:65][INFO]  Complete in 0m 2.0630s
+
+[2024-08-05 13:33:51,426][infer_x.py][line:67][INFO]  Prediction time in 0m 1.7186s
+
+[2024-08-05 13:33:51,426][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:33:51,426][main_x.py][line:241][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:33:58,821][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:33:58,834][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-05 13:33:58,834][main_x.py][line:129][INFO] Test Mode
+[2024-08-05 13:33:59,028][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:33:59,206][infer_x.py][line:65][INFO]  Complete in 0m 0.1565s
+
+[2024-08-05 13:33:59,207][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0320s
+
+[2024-08-05 13:33:59,207][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:33:59,207][main_x.py][line:241][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:34:04,574][main_x.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:34:04,586][main_x.py][line:122][INFO] total params:1.2091M
+[2024-08-05 13:34:04,586][main_x.py][line:129][INFO] Test Mode
+[2024-08-05 13:34:04,798][main_x.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:34:04,990][infer_x.py][line:65][INFO]  Complete in 0m 0.1585s
+
+[2024-08-05 13:34:04,990][infer_x.py][line:67][INFO]  Prediction time in 0m 0.0290s
+
+[2024-08-05 13:34:04,991][main_x.py][line:216][INFO] Processed 1/1
+[2024-08-05 13:34:04,991][main_x.py][line:241][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:34:09,216][main_x_CUDA.py][line:96][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test-1.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:34:09,346][main_x_CUDA.py][line:123][INFO] total params:1.2091M
+[2024-08-05 13:34:09,347][main_x_CUDA.py][line:132][INFO] Test Mode
+[2024-08-05 13:34:09,558][main_x_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:34:23,805][infer_x_CUDA.py][line:65][INFO]  Complete in 0m 14.2400s
+
+[2024-08-05 13:34:23,805][infer_x_CUDA.py][line:67][INFO]  Prediction time in 0m 0.2050s
+
+[2024-08-05 13:34:23,805][main_x_CUDA.py][line:219][INFO] Processed 1/1
+[2024-08-05 13:34:23,805][main_x_CUDA.py][line:244][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:35:46,962][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:35:46,975][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:35:46,975][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:35:47,187][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:47,333][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1410s
+
+[2024-08-05 13:35:47,333][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0210s
+
+[2024-08-05 13:35:47,333][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:47,334][main_x_UCF.py][line:240][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:35:47,355][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0210s
+
+[2024-08-05 13:35:47,356][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.1410s
+
+[2024-08-05 13:35:47,357][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:47,408][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0480s
+
+[2024-08-05 13:35:47,408][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0410s
+
+[2024-08-05 13:35:47,409][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:47,409][main_x_UCF.py][line:240][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:35:47,428][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0410s
+
+[2024-08-05 13:35:47,428][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0490s
+
+[2024-08-05 13:35:47,430][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:47,473][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0385s
+
+[2024-08-05 13:35:47,474][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0280s
+
+[2024-08-05 13:35:47,474][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:47,474][main_x_UCF.py][line:240][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:35:47,494][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0280s
+
+[2024-08-05 13:35:47,494][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0395s
+
+[2024-08-05 13:35:47,497][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:47,545][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0450s
+
+[2024-08-05 13:35:47,545][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0330s
+
+[2024-08-05 13:35:47,545][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:47,546][main_x_UCF.py][line:240][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:35:47,564][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0330s
+
+[2024-08-05 13:35:47,564][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0450s
+
+[2024-08-05 13:35:47,566][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:47,624][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0550s
+
+[2024-08-05 13:35:47,624][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0400s
+
+[2024-08-05 13:35:47,624][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:47,625][main_x_UCF.py][line:240][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:35:47,650][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0400s
+
+[2024-08-05 13:35:47,650][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0550s
+
+[2024-08-05 13:35:47,652][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:47,838][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1830s
+
+[2024-08-05 13:35:47,838][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.1505s
+
+[2024-08-05 13:35:47,839][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:47,839][main_x_UCF.py][line:240][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:35:47,857][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.1505s
+
+[2024-08-05 13:35:47,857][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.1840s
+
+[2024-08-05 13:35:47,859][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:48,225][infer_ucf.py][line:71][INFO]  Complete in 0m 0.3624s
+
+[2024-08-05 13:35:48,225][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.3068s
+
+[2024-08-05 13:35:48,225][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:48,225][main_x_UCF.py][line:240][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:35:48,252][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.3068s
+
+[2024-08-05 13:35:48,252][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.3624s
+
+[2024-08-05 13:35:48,276][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:48,372][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0921s
+
+[2024-08-05 13:35:48,373][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0735s
+
+[2024-08-05 13:35:48,373][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:48,373][main_x_UCF.py][line:240][INFO] Processed 8 out of 290.0 files
+[2024-08-05 13:35:48,391][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0735s
+
+[2024-08-05 13:35:48,391][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0931s
+
+[2024-08-05 13:35:48,399][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:48,464][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0616s
+
+[2024-08-05 13:35:48,464][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0555s
+
+[2024-08-05 13:35:48,465][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:48,465][main_x_UCF.py][line:240][INFO] Processed 9 out of 290.0 files
+[2024-08-05 13:35:48,530][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0555s
+
+[2024-08-05 13:35:48,530][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0626s
+
+[2024-08-05 13:35:48,532][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:35:48,583][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0474s
+
+[2024-08-05 13:35:48,584][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0360s
+
+[2024-08-05 13:35:48,584][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:35:48,584][main_x_UCF.py][line:240][INFO] Processed 10 out of 290.0 files
+[2024-08-05 13:35:48,603][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0360s
+
+[2024-08-05 13:35:48,604][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.0484s
+
+[2024-08-05 13:35:48,606][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:17,927][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:36:17,940][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:36:17,940][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:36:18,152][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:18,285][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1280s
+
+[2024-08-05 13:36:18,285][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0200s
+
+[2024-08-05 13:36:18,286][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:18,286][main_x_UCF.py][line:240][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:36:18,310][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:18,339][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0255s
+
+[2024-08-05 13:36:18,339][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0185s
+
+[2024-08-05 13:36:18,339][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:18,339][main_x_UCF.py][line:240][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:36:18,361][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:18,404][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0390s
+
+[2024-08-05 13:36:18,405][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0290s
+
+[2024-08-05 13:36:18,405][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:18,405][main_x_UCF.py][line:240][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:36:18,441][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:18,485][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0416s
+
+[2024-08-05 13:36:18,486][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0326s
+
+[2024-08-05 13:36:18,486][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:18,486][main_x_UCF.py][line:240][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:36:18,517][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:18,576][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0552s
+
+[2024-08-05 13:36:18,577][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0402s
+
+[2024-08-05 13:36:18,577][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:18,577][main_x_UCF.py][line:240][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:36:18,596][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:18,748][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1470s
+
+[2024-08-05 13:36:18,748][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.1150s
+
+[2024-08-05 13:36:18,749][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:18,749][main_x_UCF.py][line:240][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:36:18,775][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:19,073][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2940s
+
+[2024-08-05 13:36:19,073][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.2390s
+
+[2024-08-05 13:36:19,073][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:19,073][main_x_UCF.py][line:240][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:36:19,153][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:27,191][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:36:27,205][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:36:27,205][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:36:27,405][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:27,567][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1570s
+
+[2024-08-05 13:36:27,567][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0210s
+
+[2024-08-05 13:36:27,567][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:27,567][main_x_UCF.py][line:240][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:36:27,591][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:27,621][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0260s
+
+[2024-08-05 13:36:27,622][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0200s
+
+[2024-08-05 13:36:27,622][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:27,622][main_x_UCF.py][line:240][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:36:27,645][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:27,685][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0370s
+
+[2024-08-05 13:36:27,685][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0260s
+
+[2024-08-05 13:36:27,685][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:27,685][main_x_UCF.py][line:240][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:36:27,734][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:27,781][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0430s
+
+[2024-08-05 13:36:27,781][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0330s
+
+[2024-08-05 13:36:27,782][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:27,782][main_x_UCF.py][line:240][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:36:27,802][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:27,864][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0590s
+
+[2024-08-05 13:36:27,864][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0440s
+
+[2024-08-05 13:36:27,865][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:27,865][main_x_UCF.py][line:240][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:36:27,892][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:28,038][infer_ucf.py][line:71][INFO]  Complete in 0m 0.1435s
+
+[2024-08-05 13:36:28,039][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.1130s
+
+[2024-08-05 13:36:28,039][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:28,039][main_x_UCF.py][line:240][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:36:28,069][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:28,372][infer_ucf.py][line:71][INFO]  Complete in 0m 0.2985s
+
+[2024-08-05 13:36:28,372][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.2405s
+
+[2024-08-05 13:36:28,372][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:28,372][main_x_UCF.py][line:240][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:36:28,403][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:36:28,497][infer_ucf.py][line:71][INFO]  Complete in 0m 0.0910s
+
+[2024-08-05 13:36:28,497][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0720s
+
+[2024-08-05 13:36:28,498][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:36:28,498][main_x_UCF.py][line:240][INFO] Processed 8 out of 290.0 files
+[2024-08-05 13:36:28,524][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:37,337][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:37:37,350][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:37:37,350][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:37:37,592][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:37,734][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:37,735][main_x_UCF.py][line:240][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:37:37,759][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:37,788][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:37,789][main_x_UCF.py][line:240][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:37:37,811][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:37,850][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:37,850][main_x_UCF.py][line:240][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:37:37,902][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:37,949][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:37,950][main_x_UCF.py][line:240][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:37:37,992][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,053][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,053][main_x_UCF.py][line:240][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:37:38,081][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,232][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,232][main_x_UCF.py][line:240][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:37:38,259][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,556][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,556][main_x_UCF.py][line:240][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:37:38,581][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,672][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,672][main_x_UCF.py][line:240][INFO] Processed 8 out of 290.0 files
+[2024-08-05 13:37:38,694][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,712][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,712][main_x_UCF.py][line:240][INFO] Processed 9 out of 290.0 files
+[2024-08-05 13:37:38,737][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,782][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,782][main_x_UCF.py][line:240][INFO] Processed 10 out of 290.0 files
+[2024-08-05 13:37:38,814][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,839][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,839][main_x_UCF.py][line:240][INFO] Processed 11 out of 290.0 files
+[2024-08-05 13:37:38,862][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,892][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,892][main_x_UCF.py][line:240][INFO] Processed 12 out of 290.0 files
+[2024-08-05 13:37:38,916][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:38,937][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:38,938][main_x_UCF.py][line:240][INFO] Processed 13 out of 290.0 files
+[2024-08-05 13:37:38,959][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:39,089][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:39,090][main_x_UCF.py][line:240][INFO] Processed 14 out of 290.0 files
+[2024-08-05 13:37:39,115][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:39,141][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:39,141][main_x_UCF.py][line:240][INFO] Processed 15 out of 290.0 files
+[2024-08-05 13:37:39,163][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:58,850][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:37:58,863][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:37:58,863][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:37:59,078][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:59,250][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:59,251][main_x_UCF.py][line:240][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:37:59,274][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:59,305][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:59,305][main_x_UCF.py][line:240][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:37:59,327][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:59,365][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:59,365][main_x_UCF.py][line:240][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:37:59,393][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:59,443][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:59,443][main_x_UCF.py][line:240][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:37:59,465][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:59,527][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:59,528][main_x_UCF.py][line:240][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:37:59,551][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:37:59,705][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:37:59,705][main_x_UCF.py][line:240][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:37:59,728][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:38:00,027][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:00,027][main_x_UCF.py][line:240][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:38:00,052][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:38:00,155][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:00,155][main_x_UCF.py][line:240][INFO] Processed 8 out of 290.0 files
+[2024-08-05 13:38:00,184][main_x_UCF.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:38:24,266][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:38:24,279][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:38:24,279][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:38:24,646][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:24,647][main_x_UCF.py][line:240][INFO] Processed 1 out of 290.0 files
+[2024-08-05 13:38:24,703][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:24,703][main_x_UCF.py][line:240][INFO] Processed 2 out of 290.0 files
+[2024-08-05 13:38:24,775][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:24,775][main_x_UCF.py][line:240][INFO] Processed 3 out of 290.0 files
+[2024-08-05 13:38:24,861][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:24,861][main_x_UCF.py][line:240][INFO] Processed 4 out of 290.0 files
+[2024-08-05 13:38:24,943][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:24,943][main_x_UCF.py][line:240][INFO] Processed 5 out of 290.0 files
+[2024-08-05 13:38:25,117][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,117][main_x_UCF.py][line:240][INFO] Processed 6 out of 290.0 files
+[2024-08-05 13:38:25,442][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,443][main_x_UCF.py][line:240][INFO] Processed 7 out of 290.0 files
+[2024-08-05 13:38:25,570][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,570][main_x_UCF.py][line:240][INFO] Processed 8 out of 290.0 files
+[2024-08-05 13:38:25,613][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,613][main_x_UCF.py][line:240][INFO] Processed 9 out of 290.0 files
+[2024-08-05 13:38:25,724][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,725][main_x_UCF.py][line:240][INFO] Processed 10 out of 290.0 files
+[2024-08-05 13:38:25,793][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,793][main_x_UCF.py][line:240][INFO] Processed 11 out of 290.0 files
+[2024-08-05 13:38:25,854][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,854][main_x_UCF.py][line:240][INFO] Processed 12 out of 290.0 files
+[2024-08-05 13:38:25,928][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:25,928][main_x_UCF.py][line:240][INFO] Processed 13 out of 290.0 files
+[2024-08-05 13:38:26,107][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:26,107][main_x_UCF.py][line:240][INFO] Processed 14 out of 290.0 files
+[2024-08-05 13:38:26,161][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:26,161][main_x_UCF.py][line:240][INFO] Processed 15 out of 290.0 files
+[2024-08-05 13:38:26,243][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:26,243][main_x_UCF.py][line:240][INFO] Processed 16 out of 290.0 files
+[2024-08-05 13:38:26,410][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:26,410][main_x_UCF.py][line:240][INFO] Processed 17 out of 290.0 files
+[2024-08-05 13:38:26,719][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:26,719][main_x_UCF.py][line:240][INFO] Processed 18 out of 290.0 files
+[2024-08-05 13:38:26,783][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:26,783][main_x_UCF.py][line:240][INFO] Processed 19 out of 290.0 files
+[2024-08-05 13:38:26,940][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:26,940][main_x_UCF.py][line:240][INFO] Processed 20 out of 290.0 files
+[2024-08-05 13:38:27,005][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:27,005][main_x_UCF.py][line:240][INFO] Processed 21 out of 290.0 files
+[2024-08-05 13:38:27,056][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:27,057][main_x_UCF.py][line:240][INFO] Processed 22 out of 290.0 files
+[2024-08-05 13:38:27,111][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:27,111][main_x_UCF.py][line:240][INFO] Processed 23 out of 290.0 files
+[2024-08-05 13:38:27,224][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:27,225][main_x_UCF.py][line:240][INFO] Processed 24 out of 290.0 files
+[2024-08-05 13:38:28,489][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:28,489][main_x_UCF.py][line:240][INFO] Processed 25 out of 290.0 files
+[2024-08-05 13:38:28,784][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:28,784][main_x_UCF.py][line:240][INFO] Processed 26 out of 290.0 files
+[2024-08-05 13:38:29,278][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:29,278][main_x_UCF.py][line:240][INFO] Processed 27 out of 290.0 files
+[2024-08-05 13:38:29,464][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:29,465][main_x_UCF.py][line:240][INFO] Processed 28 out of 290.0 files
+[2024-08-05 13:38:30,417][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:30,417][main_x_UCF.py][line:240][INFO] Processed 29 out of 290.0 files
+[2024-08-05 13:38:31,719][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:31,719][main_x_UCF.py][line:240][INFO] Processed 30 out of 290.0 files
+[2024-08-05 13:38:33,204][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:33,204][main_x_UCF.py][line:240][INFO] Processed 31 out of 290.0 files
+[2024-08-05 13:38:33,429][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:33,478][main_x_UCF.py][line:240][INFO] Processed 32 out of 290.0 files
+[2024-08-05 13:38:33,970][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:33,970][main_x_UCF.py][line:240][INFO] Processed 33 out of 290.0 files
+[2024-08-05 13:38:34,280][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:34,280][main_x_UCF.py][line:240][INFO] Processed 34 out of 290.0 files
+[2024-08-05 13:38:35,858][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:35,858][main_x_UCF.py][line:240][INFO] Processed 35 out of 290.0 files
+[2024-08-05 13:38:36,124][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:36,124][main_x_UCF.py][line:240][INFO] Processed 36 out of 290.0 files
+[2024-08-05 13:38:36,473][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:36,473][main_x_UCF.py][line:240][INFO] Processed 37 out of 290.0 files
+[2024-08-05 13:38:36,695][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:36,695][main_x_UCF.py][line:240][INFO] Processed 38 out of 290.0 files
+[2024-08-05 13:38:37,128][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:37,129][main_x_UCF.py][line:240][INFO] Processed 39 out of 290.0 files
+[2024-08-05 13:38:37,381][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:37,381][main_x_UCF.py][line:240][INFO] Processed 40 out of 290.0 files
+[2024-08-05 13:38:37,689][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:37,689][main_x_UCF.py][line:240][INFO] Processed 41 out of 290.0 files
+[2024-08-05 13:38:37,905][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:37,906][main_x_UCF.py][line:240][INFO] Processed 42 out of 290.0 files
+[2024-08-05 13:38:38,146][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:38,146][main_x_UCF.py][line:240][INFO] Processed 43 out of 290.0 files
+[2024-08-05 13:38:38,621][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:38,621][main_x_UCF.py][line:240][INFO] Processed 44 out of 290.0 files
+[2024-08-05 13:38:38,847][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:38,847][main_x_UCF.py][line:240][INFO] Processed 45 out of 290.0 files
+[2024-08-05 13:38:39,065][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:39,065][main_x_UCF.py][line:240][INFO] Processed 46 out of 290.0 files
+[2024-08-05 13:38:39,347][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:39,347][main_x_UCF.py][line:240][INFO] Processed 47 out of 290.0 files
+[2024-08-05 13:38:39,648][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:39,648][main_x_UCF.py][line:240][INFO] Processed 48 out of 290.0 files
+[2024-08-05 13:38:40,092][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:40,092][main_x_UCF.py][line:240][INFO] Processed 49 out of 290.0 files
+[2024-08-05 13:38:40,481][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:40,481][main_x_UCF.py][line:240][INFO] Processed 50 out of 290.0 files
+[2024-08-05 13:38:41,120][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:41,120][main_x_UCF.py][line:240][INFO] Processed 51 out of 290.0 files
+[2024-08-05 13:38:41,380][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:41,380][main_x_UCF.py][line:240][INFO] Processed 52 out of 290.0 files
+[2024-08-05 13:38:42,196][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:42,197][main_x_UCF.py][line:240][INFO] Processed 53 out of 290.0 files
+[2024-08-05 13:38:42,682][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:42,682][main_x_UCF.py][line:240][INFO] Processed 54 out of 290.0 files
+[2024-08-05 13:38:42,942][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:42,942][main_x_UCF.py][line:240][INFO] Processed 55 out of 290.0 files
+[2024-08-05 13:38:43,164][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:43,165][main_x_UCF.py][line:240][INFO] Processed 56 out of 290.0 files
+[2024-08-05 13:38:43,492][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:43,492][main_x_UCF.py][line:240][INFO] Processed 57 out of 290.0 files
+[2024-08-05 13:38:44,012][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:44,012][main_x_UCF.py][line:240][INFO] Processed 58 out of 290.0 files
+[2024-08-05 13:38:44,248][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:44,248][main_x_UCF.py][line:240][INFO] Processed 59 out of 290.0 files
+[2024-08-05 13:38:44,460][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:44,461][main_x_UCF.py][line:240][INFO] Processed 60 out of 290.0 files
+[2024-08-05 13:38:44,631][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:44,632][main_x_UCF.py][line:240][INFO] Processed 61 out of 290.0 files
+[2024-08-05 13:38:44,854][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:44,854][main_x_UCF.py][line:240][INFO] Processed 62 out of 290.0 files
+[2024-08-05 13:38:45,043][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:45,043][main_x_UCF.py][line:240][INFO] Processed 63 out of 290.0 files
+[2024-08-05 13:38:45,293][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:45,293][main_x_UCF.py][line:240][INFO] Processed 64 out of 290.0 files
+[2024-08-05 13:38:45,507][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:45,508][main_x_UCF.py][line:240][INFO] Processed 65 out of 290.0 files
+[2024-08-05 13:38:45,798][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:45,799][main_x_UCF.py][line:240][INFO] Processed 66 out of 290.0 files
+[2024-08-05 13:38:46,046][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:46,047][main_x_UCF.py][line:240][INFO] Processed 67 out of 290.0 files
+[2024-08-05 13:38:46,227][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:46,227][main_x_UCF.py][line:240][INFO] Processed 68 out of 290.0 files
+[2024-08-05 13:38:46,492][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:46,493][main_x_UCF.py][line:240][INFO] Processed 69 out of 290.0 files
+[2024-08-05 13:38:46,689][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:46,689][main_x_UCF.py][line:240][INFO] Processed 70 out of 290.0 files
+[2024-08-05 13:38:46,921][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:46,921][main_x_UCF.py][line:240][INFO] Processed 71 out of 290.0 files
+[2024-08-05 13:38:47,260][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:47,260][main_x_UCF.py][line:240][INFO] Processed 72 out of 290.0 files
+[2024-08-05 13:38:47,499][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:47,499][main_x_UCF.py][line:240][INFO] Processed 73 out of 290.0 files
+[2024-08-05 13:38:47,725][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:47,725][main_x_UCF.py][line:240][INFO] Processed 74 out of 290.0 files
+[2024-08-05 13:38:47,948][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:47,948][main_x_UCF.py][line:240][INFO] Processed 75 out of 290.0 files
+[2024-08-05 13:38:48,172][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:48,172][main_x_UCF.py][line:240][INFO] Processed 76 out of 290.0 files
+[2024-08-05 13:38:48,509][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:48,509][main_x_UCF.py][line:240][INFO] Processed 77 out of 290.0 files
+[2024-08-05 13:38:48,683][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:48,684][main_x_UCF.py][line:240][INFO] Processed 78 out of 290.0 files
+[2024-08-05 13:38:48,900][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:48,901][main_x_UCF.py][line:240][INFO] Processed 79 out of 290.0 files
+[2024-08-05 13:38:49,217][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:49,217][main_x_UCF.py][line:240][INFO] Processed 80 out of 290.0 files
+[2024-08-05 13:38:49,345][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:49,345][main_x_UCF.py][line:240][INFO] Processed 81 out of 290.0 files
+[2024-08-05 13:38:49,564][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:49,564][main_x_UCF.py][line:240][INFO] Processed 82 out of 290.0 files
+[2024-08-05 13:38:49,805][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:49,805][main_x_UCF.py][line:240][INFO] Processed 83 out of 290.0 files
+[2024-08-05 13:38:50,085][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:50,086][main_x_UCF.py][line:240][INFO] Processed 84 out of 290.0 files
+[2024-08-05 13:38:50,314][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:50,314][main_x_UCF.py][line:240][INFO] Processed 85 out of 290.0 files
+[2024-08-05 13:38:50,581][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:50,581][main_x_UCF.py][line:240][INFO] Processed 86 out of 290.0 files
+[2024-08-05 13:38:50,773][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:50,773][main_x_UCF.py][line:240][INFO] Processed 87 out of 290.0 files
+[2024-08-05 13:38:50,983][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:50,983][main_x_UCF.py][line:240][INFO] Processed 88 out of 290.0 files
+[2024-08-05 13:38:51,184][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:51,184][main_x_UCF.py][line:240][INFO] Processed 89 out of 290.0 files
+[2024-08-05 13:38:51,425][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:51,426][main_x_UCF.py][line:240][INFO] Processed 90 out of 290.0 files
+[2024-08-05 13:38:51,749][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:51,750][main_x_UCF.py][line:240][INFO] Processed 91 out of 290.0 files
+[2024-08-05 13:38:52,265][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:52,266][main_x_UCF.py][line:240][INFO] Processed 92 out of 290.0 files
+[2024-08-05 13:38:52,460][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:52,460][main_x_UCF.py][line:240][INFO] Processed 93 out of 290.0 files
+[2024-08-05 13:38:52,696][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:52,696][main_x_UCF.py][line:240][INFO] Processed 94 out of 290.0 files
+[2024-08-05 13:38:52,954][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:52,954][main_x_UCF.py][line:240][INFO] Processed 95 out of 290.0 files
+[2024-08-05 13:38:53,304][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:53,304][main_x_UCF.py][line:240][INFO] Processed 96 out of 290.0 files
+[2024-08-05 13:38:53,511][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:53,511][main_x_UCF.py][line:240][INFO] Processed 97 out of 290.0 files
+[2024-08-05 13:38:54,040][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:54,040][main_x_UCF.py][line:240][INFO] Processed 98 out of 290.0 files
+[2024-08-05 13:38:54,349][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:54,349][main_x_UCF.py][line:240][INFO] Processed 99 out of 290.0 files
+[2024-08-05 13:38:54,580][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:54,581][main_x_UCF.py][line:240][INFO] Processed 100 out of 290.0 files
+[2024-08-05 13:38:54,871][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:54,871][main_x_UCF.py][line:240][INFO] Processed 101 out of 290.0 files
+[2024-08-05 13:38:56,933][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:56,933][main_x_UCF.py][line:240][INFO] Processed 102 out of 290.0 files
+[2024-08-05 13:38:57,442][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:57,443][main_x_UCF.py][line:240][INFO] Processed 103 out of 290.0 files
+[2024-08-05 13:38:57,662][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:57,662][main_x_UCF.py][line:240][INFO] Processed 104 out of 290.0 files
+[2024-08-05 13:38:57,852][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:57,852][main_x_UCF.py][line:240][INFO] Processed 105 out of 290.0 files
+[2024-08-05 13:38:58,118][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:58,118][main_x_UCF.py][line:240][INFO] Processed 106 out of 290.0 files
+[2024-08-05 13:38:58,731][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:58,731][main_x_UCF.py][line:240][INFO] Processed 107 out of 290.0 files
+[2024-08-05 13:38:59,660][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:38:59,660][main_x_UCF.py][line:240][INFO] Processed 108 out of 290.0 files
+[2024-08-05 13:39:00,048][main_x_UCF.py][line:215][INFO] Processed 1/1
+[2024-08-05 13:39:00,049][main_x_UCF.py][line:240][INFO] Processed 109 out of 290.0 files
+[2024-08-05 13:39:03,088][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:39:03,101][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:39:03,101][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:41:09,372][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0930s
+
+[2024-08-05 13:41:09,372][main_x_UCF.py][line:253][INFO]  Infer time in 0m 0.7780s
+
+[2024-08-05 13:44:38,310][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:44:38,944][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 13:44:38,944][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 13:46:45,144][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0950s
+
+[2024-08-05 13:46:45,145][main_x_UCF.py][line:253][INFO]  Infer time in 2m 4.6171s
+
+[2024-08-05 13:48:05,734][main_x_UCF_CUDA.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:48:06,368][main_x_UCF_CUDA.py][line:122][INFO] total params:1.2091M
+[2024-08-05 13:48:06,369][main_x_UCF_CUDA.py][line:130][INFO] Test Mode
+[2024-08-05 13:48:07,392][main_x_UCF_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 13:50:41,859][infer_ucf_CUDA.py][line:69][INFO] offline AUC:0.7281 AP:0.1637 FAR:0.1671 | Complete in 2m 34s
+
+[2024-08-05 13:50:41,860][infer_ucf_CUDA.py][line:71][INFO]  Complete in 2m 34.1293s
+
+[2024-08-05 13:50:41,860][infer_ucf_CUDA.py][line:73][INFO]  Prediction time in 0m 0.0230s
+
+[2024-08-05 13:50:41,861][main_x_UCF_CUDA.py][line:217][INFO] Processed 1/1
+[2024-08-05 13:50:41,861][main_x_UCF_CUDA.py][line:242][INFO] Processed 1 out of 1.0 files
+[2024-08-05 13:58:43,438][main_x_UCF_CUDA.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 8, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 13:58:43,767][main_x_UCF_CUDA.py][line:122][INFO] total params:1.2091M
+[2024-08-05 13:58:43,768][main_x_UCF_CUDA.py][line:130][INFO] Test Mode
+[2024-08-05 13:58:44,828][main_x_UCF_CUDA.py][line:29][INFO] loading pretrained checkpoint from ./ckpt/ucf__8636.pkl.
+[2024-08-05 14:01:01,637][infer_ucf_CUDA.py][line:69][INFO] offline AUC:0.7281 AP:0.1637 FAR:0.1671 | Complete in 2m 17s
+
+[2024-08-05 14:01:01,637][infer_ucf_CUDA.py][line:71][INFO]  Complete in 2m 16.5628s
+
+[2024-08-05 14:01:01,638][infer_ucf_CUDA.py][line:73][INFO]  Prediction time in 0m 0.1107s
+
+[2024-08-05 14:01:01,639][main_x_UCF_CUDA.py][line:217][INFO] Processed 1/1
+[2024-08-05 14:01:01,639][main_x_UCF_CUDA.py][line:242][INFO] Processed 1 out of 1.0 files
+[2024-08-05 14:01:43,778][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 14:01:44,728][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 14:01:44,729][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 14:04:12,354][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0905s
+
+[2024-08-05 14:04:12,354][main_x_UCF.py][line:253][INFO]  Infer time in 2m 25.1649s
+
+[2024-08-05 14:05:33,778][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 14:05:34,500][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 14:05:34,501][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 14:07:43,323][infer_ucf.py][line:69][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 2m 7s
+
+[2024-08-05 14:07:43,324][infer_ucf.py][line:71][INFO]  Complete in 2m 7.0242s
+
+[2024-08-05 14:07:43,324][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.0890s
+
+[2024-08-05 14:07:43,575][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.0890s
+
+[2024-08-05 14:07:43,575][main_x_UCF.py][line:253][INFO]  Infer time in 2m 7.0262s
+
+[2024-08-05 17:03:49,074][main_x_UCF.py][line:95][INFO] Config:{'dataset': 'ucf-crime', 'model_name': 'ucf_', 'metrics': 'AUC', 'feat_prefix': './test/', 'train_list': './list/ucf/train.list', 'test_list': './list/ucf/test.list', 'token_feat': './list/ucf/ucf-prompt.npy', 'gt': './list/ucf/ucf-gt.npy', 'win_size': 9, 'gamma': 0.6, 'bias': 0.2, 'norm': False, 't_step': 9, 'temp': 0.09, 'lamda': 1, 'seed': 9, 'test_bs': 10, 'smooth': 'slide', 'kappa': 7, 'ckpt_path': './ckpt/ucf__8636.pkl', 'feat_dim': 1024, 'head_num': 1, 'hid_dim': 128, 'out_dim': 300, 'lr': 0.0005, 'dropout': 0.1, 'train_bs': 128, 'max_seqlen': 200, 'max_epoch': 50, 'workers': 0, 'save_dir': './ckpt/', 'logs_dir': './log_info.log'}
+[2024-08-05 17:03:50,583][main_x_UCF.py][line:121][INFO] total params:1.2091M
+[2024-08-05 17:03:50,583][main_x_UCF.py][line:129][INFO] Test Mode
+[2024-08-05 17:09:53,589][infer_ucf.py][line:69][INFO] offline AUC:0.7281 AP:0.1632 FAR:0.1672 | Complete in 5m 59s
+
+[2024-08-05 17:09:53,812][infer_ucf.py][line:71][INFO]  Complete in 5m 58.9420s
+
+[2024-08-05 17:09:53,817][infer_ucf.py][line:73][INFO]  Prediction time in 0m 0.4366s
+
+[2024-08-05 17:09:56,039][main_x_UCF.py][line:252][INFO]  Prediction time in 0m 0.4366s
+
+[2024-08-05 17:09:56,041][main_x_UCF.py][line:253][INFO]  Infer time in 5m 59.2299s
+

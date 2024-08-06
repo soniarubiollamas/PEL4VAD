@@ -21,7 +21,7 @@ def load_and_concatenate_files(pred_folder, gt_folder):
     gt_list = []
 
     for pred_file in os.listdir(pred_folder):
-        breakpoint()
+        # breakpoint()
         pred_path = os.path.join(pred_folder, pred_file)
         gt_path = os.path.join(gt_folder, pred_file)
 
@@ -77,7 +77,7 @@ print(f"PR AUC: {pr_auc}")
 
 # Optional: plot the ROC and PR curves
 plt.figure()
-plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.2f)' % roc_auc)
+plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.4f)' % roc_auc)
 plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
 plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])

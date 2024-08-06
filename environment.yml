@@ -1,4 +1,4 @@
-name: pytorch
+ name: pytorch
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free

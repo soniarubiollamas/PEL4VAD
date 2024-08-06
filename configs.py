@@ -7,7 +7,7 @@ def build_config(dataset):
         cfg.metrics = 'AUC'
         cfg.feat_prefix = './test/'
         cfg.train_list = './list/ucf/train.list'
-        cfg.test_list = './list/ucf/test-1.list'
+        cfg.test_list = './list/ucf/test.list'
         cfg.token_feat = './list/ucf/ucf-prompt.npy'
         cfg.gt = './list/ucf/ucf-gt.npy'
         # TCA settings
