@@ -18,7 +18,7 @@ def cal_false_alarm(labels, preds, threshold=0.5):
 def adapt_pred(preds, gt, pred_file, suffix):
     # search filename in txt lines
     name = pred_file.split("_x264_")[0]
-    with open("G:/XONI MASTER/1 interships/UR-DMU/feature_extract/annotations/crop_videos_metrics.txt") as f:
+    with open("C:/Users/xoni/Documents/1_insterships/PEL4VAD/frame_label/failed_august/todos_nombres_archivos.txt") as f:
         lines = f.readlines()
         for line in lines:
             if name in line:
@@ -165,7 +165,7 @@ def calculate_metrics_and_plot(preds, gt, group_name):
 
 # Define folders
 gt_folder = "frame_label/gt"
-pred_folder = "frame_label/metrics"
+pred_folder = "frame_label/all_good"
 
 # Define suffixes
 suffixes = ["_001_i3d_pred.npy", "_005_i3d_pred.npy", "_01_i3d_pred.npy","_x264_pred.npy"]

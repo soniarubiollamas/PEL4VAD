@@ -9,6 +9,7 @@ def plot_npy_files(folder1, folder2, filename, label1, label2):
   file_path2 = os.path.join(folder2, filename2)
 
   data1 = np.load(file_path1)
+  data1 = np.repeat(data1, 16)
   data2 = np.load(file_path2)
   data2 = np.repeat(data2, 16)
 
@@ -27,9 +28,9 @@ def plot_npy_files(folder1, folder2, filename, label1, label2):
 # not bad: Shooting037, RoadAccidents002, Explosion025, RoadAccidents010
 # largos: Vandalism028, Stealing058 (muy larga anomalia)
 
-folder1 = "frame_label/gt"  
-folder2 = "frame_label/all_good"
-name = "Arres007"
+folder1 = "frame_label/all_good"  
+folder2 = "C:/Users/xoni/Documents/1_insterships/new_PEL4VAD/PEL4VAD-master/frame_label/newversion_august"
+name = "Abuse028"
 filename = f"{name}_x264_pred.npy"
 label1 = "original gt"
 label2 = "predicted value"

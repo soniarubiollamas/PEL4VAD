@@ -28,7 +28,7 @@ def load_checkpoint(model, ckpt_path, logger):
         start_time = time.time()  # Start timer
         # logger.info('loading pretrained checkpoint from {}.'.format(ckpt_path))
         # weight_dict = torch.load(ckpt_path)
-        weight_dict = torch.load(ckpt_path, map_location=torch.device('cpu'))  # Force CPU
+        weight_dict = torch.load(ckpt_path, map_location=torch.device('cpu'), weights_only=True)  # Force CPU
         model_dict = model.state_dict()
         for name, param in weight_dict.items():
             if 'module' in name:
@@ -165,13 +165,13 @@ def main(cfg):
                 with open(list_file_path, 'a') as list_file:
                     for filename in current_batch:
                         # Check if the filename is already in the excel file
-                        # if filename in df['File name'].values:
-                        #     # skip this batch files, aka, go back to for start_index in range(0, len(dataset_files), batch_size):
-                        #     logger.info(f"Skipping {filename} as it is already in the Excel file")
-                        #     skip_file = True # CHANGE TO TRUE WHEN NOT DOING INFER   UCF
-                        #     break
-                        # else:
-                        list_file.write(filename + '\n')
+                        if filename in df['File name'].values:
+                            # skip this batch files, aka, go back to for start_index in range(0, len(dataset_files), batch_size):
+                            logger.info(f"Skipping {filename} as it is already in the Excel file")
+                            skip_file = True # CHANGE TO TRUE WHEN NOT DOING INFER   UCF
+                            break
+                        else:
+                            list_file.write(filename + '\n')
                 if skip_file:
                     # next batch
                     continue
@@ -249,8 +249,8 @@ def main(cfg):
 
                     # Write the combined data back to the file
                     df_combined.to_excel(excel_file, index=False)
-            logger.info(' Prediction time in {:.0f}m {:.4f}s\n'.format(total_model_time // 60, total_model_time % 60))
-            logger.info(' Infer time in {:.0f}m {:.4f}s\n'.format(total_complete_time // 60, total_complete_time % 60))
+                logger.info(' Prediction time in {:.0f}m {:.4f}s\n'.format(total_model_time // 60, total_model_time % 60))
+                logger.info(' Infer time in {:.0f}m {:.4f}s\n'.format(total_complete_time // 60, total_complete_time % 60))
 
             
 

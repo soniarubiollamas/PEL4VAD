@@ -131,4 +131,3 @@ dependencies:
     - wcwidth==0.2.5
     - xlwt==1.3.0
     - yacs==0.1.8
-prefix: /data/pyj/anaconda/envs/pytorch

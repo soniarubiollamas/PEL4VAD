@@ -58,7 +58,7 @@ def infer_func(model, dataloader, gt, logger, cfg):
         # pr_auc = auc(rec, pre)
     filename_save = filename[0].split('/')[-1].split('.')[0]
     timestamp = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
-    np.save('frame_label/metrics/'+filename_save+'_pred', pred)
+    np.save('frame_label/failed_august/'+filename_save+'_pred', pred)
     time_elapsed = time.time() - st
     # logger.info('offline AUC:{:.4f} AP:{:.4f} FAR:{:.4f} | Complete in {:.0f}m {:.0f}s\n'.format(
     #     roc_auc, pr_auc, far, time_elapsed // 60, time_elapsed % 60))
